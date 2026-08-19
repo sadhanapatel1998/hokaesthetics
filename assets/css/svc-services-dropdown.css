@@ -1,0 +1,494 @@
+/* =========================================================
+   SERVICES MEGA DROPDOWN — SCOPED CSS
+   All selectors are prefixed with "svc-" so they cannot
+   conflict with your existing header/nav CSS.
+   Paste this into your site's stylesheet, or link this file
+   in your <head> AFTER your existing header CSS.
+========================================================= */
+
+:root {
+  --svc-accent: #c8912a;
+  --svc-accent-dark: #a8761d;
+  --svc-ink: #22262b;
+  --svc-muted: #6c7280;
+  --svc-line: #ece7dd;
+  --svc-bg-panel: #fffdf9;
+}
+
+.svc-menu-item {
+  position: relative;
+}
+
+.svc-menu-item>.svc-menu-link {
+  color: #22262b;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 28px 0;
+  cursor: pointer;
+}
+
+.svc-menu-item:hover>.svc-menu-link,
+.svc-menu-item>.svc-menu-link.svc-link-active {
+  color: var(--svc-accent);
+}
+
+.svc-menu-item>.svc-menu-link .svc-caret {
+  font-size: 11px;
+  transition: transform .2s ease;
+}
+
+.svc-menu-item:hover>.svc-menu-link .svc-caret {
+  transform: rotate(180deg);
+}
+
+.svc-mega-panel {
+    position: absolute;
+    top: 100%;
+    left: 200px;
+    transform: translateX(-50%);
+    width: 1050px;
+    max-width: 92vw;
+  background: #fff;
+  border: 1px solid var(--svc-line);
+  border-radius: 10px;
+  box-shadow: 0 22px 55px rgba(20, 20, 20, .14);
+  padding: 34px 30px;
+  opacity: 0;
+  visibility: hidden;
+  translate: 0 8px;
+  transition: opacity .18s ease, translate .18s ease, visibility .18s;
+  z-index: 999;
+}
+
+.svc-menu-item:hover .svc-mega-panel,
+.svc-mega-panel.svc-panel-open {
+  opacity: 1;
+  visibility: visible;
+  translate: 0 0;
+}
+
+.svc-mega-grid {
+  display: flex;
+  gap: 34px;
+}
+
+.svc-mega-grid>*:first-child {
+  flex: 1.6;
+}
+
+.svc-mega-grid>*:last-child {
+  flex: 1;
+}
+
+/* --- Left intro column --- */
+.svc-intro-eyebrow {
+  color: var(--svc-accent);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  margin-bottom: 10px;
+}
+
+.svc-intro-title {
+  font-size: 15px;
+  line-height: 1.25;
+  color: var(--svc-ink);
+  margin: 0 0 4px;
+}
+
+.svc-intro-title strong {
+  display: block;
+  font-size: 26px;
+  color: var(--svc-accent);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 2px 0;
+}
+
+.svc-intro-divider {
+  width: 38px;
+  height: 3px;
+  background: var(--svc-accent);
+  margin: 16px 0 16px;
+  border-radius: 2px;
+}
+
+.svc-intro-text {
+  font-size: 13.5px;
+  color: var(--svc-muted);
+  line-height: 1.65;
+  margin: 0 0 20px;
+}
+
+.svc-intro-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--svc-accent);
+  color: var(--svc-accent);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.svc-intro-btn:hover {
+  background: var(--svc-accent);
+  color: #fff;
+}
+
+/* --- Middle: services list columns --- */
+.svc-col-label {
+  color: var(--svc-accent);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  margin-bottom: 14px;
+  grid-column: 1 / -1;
+}
+
+.svc-services-cols {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: column;
+  grid-template-rows: auto repeat(5, auto);
+  column-gap: 28px;
+}
+
+.svc-services-cols .svc-col-label {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.svc-service-row {
+  display: flex !important;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 10px;
+  border-bottom: 1px solid var(--svc-line);
+  text-decoration: none;
+  color: var(--svc-ink);
+  cursor: pointer;
+  background: transparent;
+  transition: background .18s ease;
+}
+
+.svc-service-row:last-child {
+  border-bottom: none;
+}
+
+.svc-service-icon {
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border: 1px solid currentColor;
+  transition: border-color .18s ease, color .18s ease;
+}
+
+.svc-icon-pink {
+  color: #d16b9d;
+}
+
+.svc-icon-green {
+  color: #3f8f6f;
+}
+
+.svc-icon-orange {
+  color: #e08a2d;
+}
+
+.svc-icon-purple {
+  color: #8b6bd1;
+}
+
+.svc-icon-teal {
+  color: #3fa0a0;
+}
+
+.svc-icon-blue {
+  color: #3b6fb0;
+}
+
+.svc-icon-rose {
+  color: #c85b7a;
+}
+
+.svc-service-name {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--svc-ink);
+  transition: color .18s ease;
+}
+
+.svc-service-arrow {
+  font-size: 12px;
+  color: #c7ccd3;
+  transition: .2s;
+}
+
+.svc-service-row:hover {
+  background: #fbf5e8;
+}
+
+.svc-service-row:hover .svc-service-name {
+  color: var(--svc-accent);
+}
+
+.svc-service-row:hover .svc-service-arrow {
+  color: var(--svc-accent);
+  transform: translateX(3px);
+}
+
+/* --- Active state: gold accent (click-selected service) --- */
+.svc-service-row.svc-service-active {
+  background: #fbf1dd;
+}
+
+.svc-service-row .svc-service-active .svc-service-name {
+  color: var(--svc-accent-dark);
+}
+
+.svc-service-row .svc-service-active .svc-service-icon {
+  border-color: var(--svc-accent);
+  color: var(--svc-accent-dark);
+  background: #fff;
+}
+
+.svc-services-cols .svc-service-row .svc-service-icon i{
+  font-size: 20px;
+}
+
+.svc-service-row.svc-service-active .svc-service-arrow {
+  color: var(--svc-accent-dark);
+  transform: translateX(3px);
+}
+
+/* --- Right: explore more (dynamic content) --- */
+.svc-explore-col {
+  grid-column: 3 / 4;
+}
+
+.svc-explore-panel {
+  background: var(--svc-bg-panel);
+  border: 1px solid var(--svc-line);
+  border-radius: 8px;
+  padding: 20px 20px 22px;
+}
+
+.svc-explore-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #740115;
+    margin: 0 0 3px;
+}
+
+.svc-explore-subtitle {
+  font-size: 13px;
+  color: var(--svc-muted);
+  margin: 0 0 14px;
+}
+
+.svc-explore-list {
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+}
+
+.svc-explore-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13.5px;
+  padding: 7px 0;
+}
+
+.svc-explore-list li::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--svc-accent);
+  flex: none;
+}
+
+.svc-explore-link {
+  color: var(--svc-ink);
+  text-decoration: none;
+  transition: color .15s ease;
+}
+
+.svc-explore-link:hover {
+  color: var(--svc-accent-dark);
+  text-decoration: underline;
+}
+
+.svc-explore-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  background: #f4e6cf;
+  color: var(--svc-accent-dark);
+  font-size: 12.5px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 14px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.svc-explore-btn:hover {
+  background: var(--svc-accent);
+  color: #fff;
+}
+
+/* subtle fade/slide animation when the right box content updates */
+.svc-explore-fade {
+  animation: svcExploreFadeIn .28s ease both;
+}
+
+@keyframes svcExploreFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Mobile-only simple accordion (hidden on desktop/tablet by default) --- */
+.svc-mobile-accordion {
+  display: none;
+}
+
+.svc-mobile-item {
+  border-bottom: 1px solid var(--svc-line);
+}
+
+.svc-mobile-item:last-child {
+  border-bottom: none;
+}
+
+.svc-mobile-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px 4px;
+  text-decoration: none;
+  color: var(--svc-ink);
+  font-weight: 600;
+  font-size: 14.5px;
+  cursor: pointer;
+}
+
+.svc-mobile-chevron {
+  font-size: 12px;
+  color: #c7ccd3;
+  transition: transform .2s ease, color .2s ease;
+  flex: none;
+}
+
+.svc-mobile-item.svc-mobile-open .svc-mobile-link {
+  color: var(--svc-accent-dark);
+}
+
+.svc-mobile-item.svc-mobile-open .svc-mobile-chevron {
+  transform: rotate(90deg);
+  color: var(--svc-accent-dark);
+}
+
+.svc-mobile-submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .28s ease;
+}
+
+.svc-mobile-sublink {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 4px 10px 14px;
+  text-decoration: none;
+  color: var(--svc-muted);
+  font-size: 13.5px;
+}
+
+.svc-mobile-sublink::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--svc-accent);
+  flex: none;
+}
+
+.svc-mobile-sublink:hover {
+  color: var(--svc-accent-dark);
+}
+
+/* ============ Responsive ============ */
+
+/* Any touch/narrow viewport (tablet + mobile): open on click since hover
+   doesn't apply, panel becomes full-width instead of a floating card. */
+@media (max-width: 1199px) {
+  .svc-mega-panel {
+    position: static;
+    transform: none;
+    width: 100%;
+    box-shadow: none;
+    display: none;
+    border-radius: 0;
+  }
+
+  .svc-mega-panel.svc-panel-open {
+    display: block;
+  }
+}
+
+/* Tablet only (768px–1199px): keep the 3-column side-by-side layout,
+   just narrower — services list still sits next to the Explore More box. */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .svc-mega-grid {
+    grid-template-columns: 0.9fr 1.4fr 1fr;
+    gap: 22px;
+  }
+}
+
+/* Mobile only (≤767px): stack everything in a single column — intro,
+   then the full services list, then the Explore More box BELOW the
+   whole list (updates in place when a service is tapped). */
+@media (max-width: 767px) {
+  .svc-mega-panel {
+    padding: 14px 16px 22px;
+  }
+
+  /* hide the desktop/tablet grid (intro + list + explore box) entirely */
+  .svc-mega-grid {
+    display: none;
+  }
+
+  /* show the simple accordion instead */
+  .svc-mobile-accordion {
+    display: block;
+  }
+}
