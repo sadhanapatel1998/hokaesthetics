@@ -46,12 +46,12 @@
 }
 
 .svc-mega-panel {
-    position: absolute;
-    top: 100%;
-    left: 200px;
-    transform: translateX(-50%);
-    width: 1050px;
-    max-width: 92vw;
+  position: absolute;
+  top: 100%;
+  left: 200px;
+  transform: translateX(-50%);
+  width: 1050px;
+  max-width: 92vw;
   background: #fff;
   border: 1px solid var(--svc-line);
   border-radius: 10px;
@@ -268,7 +268,7 @@
   background: #fff;
 }
 
-.svc-services-cols .svc-service-row .svc-service-icon i{
+.svc-services-cols .svc-service-row .svc-service-icon i {
   font-size: 20px;
 }
 
@@ -287,13 +287,40 @@
   border: 1px solid var(--svc-line);
   border-radius: 8px;
   padding: 20px 20px 22px;
+
+  height: 400px;
+  /* Fixed height */
+  overflow-y: auto;
+  /* Scroll if content exceeds */
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  /* Firefox */
+  scrollbar-color: #b8892d transparent;
+}
+
+/* Chrome, Edge, Safari */
+.svc-explore-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.svc-explore-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.svc-explore-panel::-webkit-scrollbar-thumb {
+  background: #b8892d;
+  border-radius: 10px;
+}
+
+.svc-explore-panel::-webkit-scrollbar-thumb:hover {
+  background: #9f7a26;
 }
 
 .svc-explore-title {
-    font-size: 17px;
-    font-weight: 700;
-    color: #740115;
-    margin: 0 0 3px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #740115;
+  margin: 0 0 3px;
 }
 
 .svc-explore-subtitle {

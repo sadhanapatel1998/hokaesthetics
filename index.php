@@ -27,7 +27,7 @@ include('include/data.php');
 </section>
 <!-- Home Banner End -->
 
-<!-- Brands Section Start -->
+<!-- Categories Section Start -->
 <section class="brands-section-thirteen section">
     <div class="container">
         <div class="company-slider health-section-thirteen gap-3">
@@ -56,44 +56,7 @@ include('include/data.php');
         </div>
     </div>
 </section>
-<!-- Brands Section End -->
-
-<!-- Brands Section Start -->
-<!-- <section class="brands-section-thirteen section">
-    <div class="container">
-        <div class="company-slider health-section-thirteen gap-3">
-            <?php //foreach ($categories as $index => $category): 
-            ?>
-            <div class="slide-item">
-                <div class="health-item-thirteen <?php //echo $category['class']; 
-                                                    ?> wow fadeInUp"
-                    data-wow-duration="<?php //echo ($index + 1); 
-                                        ?>s">
-                    <div class="health-overlay">
-                        <div class="health-icon">
-                            <img class="img-fluid icon-1"
-                                src="assets/image/categories/<?php //echo $category['image']; 
-                                                                ?>"
-                                alt="<?php //echo htmlspecialchars($category['title']); 
-                                        ?>">
-                        </div>
-                        <div class="shadow-1"></div>
-                        <div class="shadow-2"></div>
-                    </div>
-                    <div class="health-content">
-                        <h3 class="custom-title">
-                            <a href="#"><?php //echo htmlspecialchars($category['title']); 
-                                        ?></a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <?php //endforeach; 
-            ?>
-        </div>
-    </div>
-</section> -->
-<!-- Brands Section End -->
+<!-- Categories Section End -->
 
 <!-- About Section -->
 <section class="about-section-ten section pt-0">
@@ -162,6 +125,65 @@ include('include/data.php');
     </div>
 </section>
 <!-- About Section End -->
+
+<!-- Categories Section -->
+<section class="categories-section-three section">
+    <div class="container">
+        <div class="section-header section-header-ten text-center wow fadeInUp" data-wow-duration="1s">
+            <div class="section-sub-title text-white">
+                <span class="sec-circle" aria-hidden="true"></span>About HOK Aesthetics
+            </div>
+
+            <h2 class="section-title text-white">Hair & Aesthetic Clinic in Jodhpur</h2>
+            <p class="subtitle text-white">Comprehensive dental treatments tailored to your needs, delivered with
+                expertise and
+                care</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="categories-slider">
+
+            <?php foreach ($services as $slug => $service): ?>
+                <?php foreach ($service['subs'] as $sub): ?>
+
+                    <div class="slider-item">
+                        <div class="hok-service-card">
+
+                            <div class="hok-service-img-wrap">
+                                <img src="<?= $service['image']; ?>"
+                                    alt="<?= htmlspecialchars($sub['name']); ?>"
+                                    class="img-fluid">
+
+                                <div class="hok-service-icon">
+                                    <i class="<?= $service['icon']; ?>"></i>
+                                </div>
+                            </div>
+
+                            <div class="hok-service-content">
+                                <span class="service-category"><?= htmlspecialchars($service['title']); ?></span>
+
+                                <h4><?= htmlspecialchars($sub['name']); ?></h4>
+
+                                <div class="hok-service-tags">
+                                    <a href="service-details.php?service=<?= $slug; ?>"
+                                        class="btn hok-service-btn">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                <?php endforeach; ?>
+            <?php endforeach; ?>
+
+        </div>
+    </div>
+</section>
+<!-- /Categories Section -->
+
+
 
 
 
