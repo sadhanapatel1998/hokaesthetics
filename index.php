@@ -123,7 +123,7 @@ include('include/data.php');
                         <div class="mission-item-ten wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                             <div class="mission-icon">
                                 <div class="mission-inner">
-                                    <img src="./assets/img/icons/mission-03.svg" alt="Expert Care" class="img-fluid">
+                                    <img src="./assets/image/about/icon-1.png" alt="Expert Care" class="img-fluid">
                                 </div>
                             </div>
                             <div>
@@ -135,7 +135,7 @@ include('include/data.php');
                         <div class="mission-item-ten wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                             <div class="mission-icon">
                                 <div class="mission-inner">
-                                    <img src="./assets/img/icons/mission-04.svg" alt="Personalized Care"
+                                    <img src="./assets/image/about/icon-2.png" alt="Personalized Care"
                                         class="img-fluid">
                                 </div>
                             </div>
@@ -147,8 +147,7 @@ include('include/data.php');
 
                         <div class="view-more">
                             <a href="./about-us.html" class="btn btn-secondary">
-                                More About Us
-                                <i class="isax isax-arrow-right-3 ms-2"></i>
+                                Read More
                             </a>
                         </div>
                     </div>
