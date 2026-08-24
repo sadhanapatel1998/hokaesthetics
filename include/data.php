@@ -1,15 +1,62 @@
 <?php
+
 $categories = [
-    ['title' => 'Skin Aesthetics', 'image' => 'skin-aesthetics.png', 'class' => ''],
-    ['title' => 'Hair Restoration', 'image' => 'hair-restoration.png', 'class' => ''],
-    ['title' => 'Laser Treatments', 'image' => 'laser-treatments.png', 'class' => ''],
-    ['title' => 'Injectables', 'image' => 'Injectables.png', 'class' => ''],
-    ['title' => 'Weight Loss', 'image' => 'weight-loss.png', 'class' => ''],
-    ['title' => 'Plastic Surgeries', 'image' => 'facial-plastic-surgeries.png', 'class' => ''],
-    ['title' => 'Medical Cosmetology', 'image' => 'medical-cosmetology.png', 'class' => ''],
-    ['title' => 'Gynaecology', 'image' => 'gynaecology-aesthetics.png', 'class' => ''],
-    ['title' => 'Dental Aesthetics', 'image' => 'dental-aesthetics.png', 'class' => ''],
+    [
+        'title' => 'Skin Aesthetics',
+        'image' => 'skin-aesthetics.png',
+        'class' => '',
+        'link'  => 'all-services.php#skin-aesthetics'
+    ],
+    [
+        'title' => 'Hair Restoration',
+        'image' => 'hair-restoration.png',
+        'class' => '',
+        'link'  => 'all-services.php#hair-restoration'
+    ],
+    [
+        'title' => 'Laser Treatments',
+        'image' => 'laser-treatments.png',
+        'class' => '',
+        'link'  => 'all-services.php#laser-treatments'
+    ],
+    [
+        'title' => 'Injectables',
+        'image' => 'injectables.png',
+        'class' => '',
+        'link'  => 'all-services.php#injectables'
+    ],
+    [
+        'title' => 'Weight Loss',
+        'image' => 'weight-loss.png',
+        'class' => '',
+        'link'  => 'all-services.php#weight-loss-management'
+    ],
+    [
+        'title' => 'Plastic Surgeries',
+        'image' => 'facial-plastic-surgeries.png',
+        'class' => '',
+        'link'  => 'all-services.php#plastic-surgeries'
+    ],
+    [
+        'title' => 'Medical Cosmetology',
+        'image' => 'medical-cosmetology.png',
+        'class' => '',
+        'link'  => 'all-services.php#medical-cosmetology'
+    ],
+    [
+        'title' => 'Gynaecology',
+        'image' => 'gynaecology-aesthetics.png',
+        'class' => '',
+        'link'  => 'all-services.php#gynaecology-aesthetics'
+    ],
+    [
+        'title' => 'Dental Aesthetics',
+        'image' => 'dental-aesthetics.png',
+        'class' => '',
+        'link'  => 'services.php#dental-aesthetics'
+    ],
 ];
+
 
 $services = [
     "skin-aesthetics" => [
@@ -153,3 +200,150 @@ $services = [
         ]
     ]
 ];
+
+
+$testimonials = [
+    [
+        "name" => "Priya Sharma",
+        "location" => "Jodhpur, Rajasthan",
+        "image" => "assets/image/icon/user-icon.png",
+        "review" => "The Hydra Facial left my skin glowing and refreshed. The team was professional, the clinic felt luxurious, and the results looked completely natural.",
+        "rating" => 5
+    ],
+    [
+        "name" => "Rohit Mehta",
+        "location" => "Jaipur, Rajasthan",
+        "image" => "assets/image/icon/user-icon.png",
+        "review" => "My laser hair reduction sessions were comfortable and effective. The doctors explained every step clearly, and I noticed visible improvements after a few sessions.",
+        "rating" => 5
+    ],
+    [
+        "name" => "Neha Kapoor",
+        "location" => "Jodhpur, Rajasthan",
+        "image" => "assets/image/icon/user-icon.png",
+        "review" => "I chose HOK Aesthetics for Botox treatment, and the results exceeded my expectations. My look stayed natural while giving me a more confident appearance.",
+        "rating" => 5
+    ],
+    [
+        "name" => "Aman Verma",
+        "location" => "Udaipur, Rajasthan",
+        "image" => "assets/image/icon/user-icon.png",
+        "review" => "The hair restoration consultation was detailed and personalized. The team recommended the right treatment, and I felt confident throughout my journey.",
+        "rating" => 5
+    ],
+    [
+        "name" => "Sakshi Jain",
+        "location" => "Jodhpur, Rajasthan",
+        "image" => "assets/image/icon/user-icon.png",
+        "review" => "From consultation to aftercare, everything was smooth and professional. The clinic's advanced technology and caring staff made the experience truly exceptional.",
+        "rating" => 5
+    ]
+];
+$blogs = [
+    [
+        "category" => "Skin Care",
+        "title" => "How Hydra Facials Help You Achieve Radiant Skin",
+        "desc" => "Discover how Hydra Facials deeply cleanse, hydrate, and refresh your skin for a healthy, natural glow.",
+        "image" => "assets/image/blog/hydra-facial.jpg",
+        "date" => "12 Aug 2026"
+    ],
+    [
+        "category" => "Hair Restoration",
+        "title" => "Early Signs of Hair Loss You Should Never Ignore",
+        "desc" => "Learn how early diagnosis and advanced hair restoration treatments can help preserve healthy hair growth.",
+        "image" => "assets/image/blog/hair-loss.jpg",
+        "date" => "18 Aug 2026"
+    ],
+    [
+        "category" => "Laser Treatment",
+        "title" => "Laser Hair Reduction: Benefits, Safety & Results",
+        "desc" => "Everything you need to know about safe, effective laser hair reduction and long-lasting smooth skin.",
+        "image" => "assets/image/blog/laser-hair-reduction.jpg",
+        "date" => "24 Aug 2026"
+    ]
+];
+
+$footerMenu = [
+    ["name" => "Home", "link" => "index.php"],
+    ["name" => "About Us", "link" => "about-us.php"],
+    ["name" => "Our Team", "link" => "our-team.php"],
+    ["name" => "Technology", "link" => "technology.php"],
+    ["name" => "Gallery", "link" => "gallery.php"],
+    ["name" => "Blogs", "link" => "blog.php"],
+    ["name" => "Contact Us", "link" => "contact-us.php"],
+    ["name" => "All Services", "link" => "all-services.php"],
+];
+
+$footerServices = [
+    "Skin Aesthetics",
+    "Hair Restoration",
+    "Laser Treatments",
+    "Injectables",
+    "Body Shaping",
+    "Advanced Facials",
+    "Dental Aesthetics",
+    "Permanent Makeup"
+];
+
+$marqueeItems = [
+    "DOCTOR-LED TREATMENTS",
+    "ADVANCED TECHNOLOGY",
+    "NATURAL-LOOKING RESULTS",
+    "PERSONALIZED CARE PLANS",
+    "SAFE & TRUSTED PROCEDURES",
+    "EXPERT SPECIALISTS"
+];
+
+$technologies = [
+    [
+        "title"=>"Diode Laser",
+        "image"=>"assets/image/technologies/diode-laser.jpg",
+        "desc"=>"Advanced hair reduction with long-lasting results."
+    ],
+    [
+        "title"=>"HIFU Technology",
+        "image"=>"assets/image/technologies/hifu.jpg",
+        "desc"=>"Non-surgical skin lifting and facial tightening."
+    ],
+    [
+        "title"=>"ND:YAG Laser",
+        "image"=>"assets/image/technologies/nd-yag-laser.jpg",
+        "desc"=>"Treats pigmentation and vascular lesions safely."
+    ],
+    [
+        "title"=>"RF Microneedling",
+        "image"=>"assets/image/technologies/rf-microneedling.jpg",
+        "desc"=>"Improves skin tightening and rejuvenation naturally."
+    ],
+    [
+        "title"=>"Q-Switch Laser",
+        "image"=>"assets/image/technologies/q-switch-laser.jpg",
+        "desc"=>"Reduces tattoos and stubborn pigmentation effectively."
+    ],
+    [
+        "title"=>"Hydrafacial System",
+        "image"=>"assets/image/technologies/hydrafacial.jpg",
+        "desc"=>"Deep cleansing and intense skin hydration treatment."
+    ],
+    [
+        "title"=>"CO₂ Fractional Laser",
+        "image"=>"assets/image/technologies/co2-fractional-laser.jpg",
+        "desc"=>"Skin resurfacing with scar revision benefits."
+    ],
+    [
+        "title"=>"Body Contouring",
+        "image"=>"assets/image/technologies/body-contouring.jpg",
+        "desc"=>"Supports fat reduction and body shaping goals."
+    ],
+    [
+        "title"=>"Cryotherapy",
+        "image"=>"assets/image/technologies/cryotherapy.jpg",
+        "desc"=>"Advanced cooling therapy for firmer, healthier skin."
+    ],
+    [
+        "title"=>"Aesthetic IV Therapy",
+        "image"=>"assets/image/technologies/aesthetic-iv-therapy.jpg",
+        "desc"=>"Nourishes skin while boosting hydration and wellness."
+    ]
+];
+?>

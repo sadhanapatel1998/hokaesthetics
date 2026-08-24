@@ -3,8 +3,8 @@
 				<div class="container">
 					<div class="topbar-info">
 						<div class="header-info">
-							<p><i class="isax isax-message-text5 me-1"></i>info@example.com</p>
-							<p><i class="isax isax-call5 me-1"></i>+1 66589 14556</p>
+							<p><i class="isax isax-message-text5 me-1"></i><a href="mailto:info@hokaesthetics.com" class="text-white">info@example.com</a></p>
+							<p><i class="isax isax-call5 me-1"></i><a href="tel:+919910169317" class="text-white">+91 99101 69317</a></p>
 						</div>
 						<ul>
 							<!-- <li class="drop-header">
@@ -49,18 +49,18 @@
 				<div class="container">
 					<nav class="navbar navbar-expand-lg header-nav">
 						<div class="navbar-header">
-							<a id="mobile_btn" href="./index-10.html">
+							<a id="mobile_btn" href="/">
 								<i class="fa-solid fa-bars"></i>
 							</a>
-							<a href="./index-10.html" class="navbar-brand logo">
-								<img src="assets/image/logo/hok-logo.png" class="img-fluid white-logo" alt="Logo">
-								<img src="assets/image/logo/hok-logo.png" class="img-fluid normal-logo" alt="Logo">
+							<a href="/" class="navbar-brand logo">
+								<img src="assets/image/logo/hok-logo.png" class="img-fluid white-logo" alt="HOK Aesthetics">
+								<img src="assets/image/logo/hok-logo.png" class="img-fluid normal-logo" alt="HOK Aesthetics">
 							</a>
 						</div>
 						<div class="main-menu-wrapper">
 							<div class="menu-header">
-								<a href="./index-10.html" class="menu-logo">
-									<img src="./assets/img/logo-10.svg" class="img-fluid" alt="Logo">
+								<a href="/" class="menu-logo">
+									<img src="assets/image/logo/hok-logo.png" class="img-fluid" alt="HOK Aesthetics">
 								</a>
 								<button type="button" id="menu_close" class="menu-close" aria-label="close">
 									<i class="fas fa-times"></i>
@@ -68,13 +68,12 @@
 							</div>
 							<ul class="main-nav">
 								<li class="has-submenu active">
-									<a href="" class="main-menu">Home</a>
+									<a href="index.php" class="main-menu">Home</a>
 								</li>
 								<li>
 								<li class="has-submenu">
-									<a href="" class="main-menu">About Us</a>
+									<a href="about-us.php" class="main-menu">About Us</a>
 								</li>
-
 								<li class="svc-menu-item">
 									<a href="javascript:void(0);" class="svc-menu-link">
 										Services <i class="fas fa-chevron-down svc-caret"></i>
@@ -159,28 +158,26 @@
 										</div>
 									</div>
 								</li>
+								<!-- <li class="has-submenu">
+									<a href="team.php" class="main-menu">Our Team</a>
+								</li> -->
 								<li class="has-submenu">
-									<a href="" class="main-menu">Our Team</a>
+									<a href="technology.php" class="main-menu">Technology</a>
 								</li>
 								<li class="has-submenu">
-									<a href="" class="main-menu">technology</a>
+									<a href="gallery.php" class="main-menu">Gallery</a>
 								</li>
 								<li class="has-submenu">
-									<a href="" class="main-menu">Gallery</a>
+									<a href="blogs.php" class="main-menu">Blogs</a>
 								</li>
 								<li class="has-submenu">
-									<a href="" class="main-menu">Blogs</a>
+									<a href="contact-us.php" class="main-menu">Contact Us</a>
 								</li>
-								<li class="has-submenu">
-									<a href="" class="main-menu">Contact Us</a>
-								</li>
-
-
 							</ul>
 						</div>
 						<ul class="nav header-navbar-rht">
 							<li>
-								<a href="./booking.html" class="btn btn-secondary"><i
+								<a href="contact-us.php" class="btn btn-secondary"><i
 										class="isax isax-calendar-edit"></i><span>Book Consultaion</span></a>
 							</li>
 						</ul>

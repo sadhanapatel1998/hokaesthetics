@@ -47,7 +47,9 @@ include('include/data.php');
                         </div>
                         <div class="health-content">
                             <h3 class="custom-title">
-                                <a href="#"><?php echo htmlspecialchars($category['title']); ?></a>
+                                <a href="<?= htmlspecialchars($category['link']); ?>">
+                                    <?= htmlspecialchars($category['title']); ?>
+                                </a>
                             </h3>
                         </div>
                     </div>
@@ -109,8 +111,8 @@ include('include/data.php');
                         </div>
 
                         <div class="view-more">
-                            <a href="./about-us.html" class="btn btn-secondary">
-                                Read More
+                            <a href="./about-us.php" class="btn btn-secondary">
+                                Read More About
                             </a>
                         </div>
                     </div>
@@ -185,7 +187,7 @@ include('include/data.php');
 </section>
 <!-- /Services Section -->
 
-<!--Services Section -->
+<!--Counter Section -->
 <section class="counter-section-seventeen section pb-0">
     <div class="container">
         <div class="row g-4 counts">
@@ -221,7 +223,7 @@ include('include/data.php');
         </div>
     </div>
 </section>
-<!-- /Services Section -->
+<!-- /Counter Section -->
 
 <!-- why choose Us Section -->
 <section class="choose-section-seventeen section">
@@ -287,11 +289,11 @@ include('include/data.php');
                         </div>
                     </div>
 
-                    <div class="view-top">
+                    <!-- <div class="view-top">
                         <a href="./about-us.html" class="btn btn-secondary">
                             Read More
                         </a>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -312,7 +314,9 @@ include('include/data.php');
             <h2 class="section-title text-white">Your Journey to Natural, Confident Results</h2>
 
             <p class="text-white">
-                From your first consultation to personalized aftercare, every step at HOK Aesthetics is designed with precision, safety, and expertise—ensuring a comfortable experience and natural-looking results that enhance your confidence.
+                From your first consultation to personalized aftercare, every step at HOK Aesthetics is designed with
+                precision, safety, and expertise—ensuring a comfortable experience and natural-looking results that
+                enhance your confidence.
             </p>
         </div>
 
@@ -339,8 +343,7 @@ include('include/data.php');
                             </div>
                         </div>
 
-                        <img class="img-fluid slide-arrow-icon" alt="arrow"
-                            src="/react/template/assets/img/icons/arrow-icon.png">
+                        <img class="img-fluid slide-arrow-icon" alt="arrow" src="assets/image/icon/arrow-icon.png">
                     </div>
                 </div>
 
@@ -363,8 +366,7 @@ include('include/data.php');
                             </div>
                         </div>
 
-                        <img class="img-fluid slide-arrow-icon" alt="arrow"
-                            src="/react/template/assets/img/icons/arrow-icon.png">
+                        <img class="img-fluid slide-arrow-icon" alt="arrow" src="assets/image/icon/arrow-icon.png">
                     </div>
                 </div>
 
@@ -388,8 +390,7 @@ include('include/data.php');
                             </div>
                         </div>
 
-                        <img class="img-fluid slide-arrow-icon" alt="arrow"
-                            src="/react/template/assets/img/icons/arrow-icon.png">
+                        <img class="img-fluid slide-arrow-icon" alt="arrow" src="assets/image/icon/arrow-icon.png">
                     </div>
                 </div>
 
@@ -419,18 +420,334 @@ include('include/data.php');
         </div>
     </div>
 
-    <img class="img-fluid work-bg-one" alt="bg" src="/react/template/assets/img/bg/work-bg-one.png">
-    <img class="img-fluid work-bg-two" alt="bg" src="/react/template/assets/img/bg/work-bg-2.png">
-    <img class="img-fluid work-bg-three" alt="bg" src="/react/template/assets/img/bg/work-bg-3.png">
-    <img class="img-fluid work-bg-four" alt="bg" src="/react/template/assets/img/bg/work-bg-4.png">
-    <img class="img-fluid work-bg-five" alt="bg" src="/react/template/assets/img/bg/work-shadow.png">
+    <img class="img-fluid work-bg-one" alt="bg" src="assets/image/bg/work-bg-one.png">
+    <img class="img-fluid work-bg-four" alt="bg" src="assets/image/bg/work-bg-4.png">
 </section>
 <!-- /Work Process Section -->
 
+<!-- Team Section -->
+<?php include('include/team.php'); ?>
+<!-- /Team Section -->
 
+<!-- Start Faq -->
+<section class="faq-section-six section">
+    <div class="container">
+        <div class="section-header section-header-ten text-center wow fadeInUp mb-5" data-wow-duration="1s">
+            <div class="section-sub-title">
+                <span class="sec-circle" aria-hidden="true"></span>Frequently Asked Questions
+            </div>
 
+            <h2 class="section-title">Everything You Need to Know About HOK Aesthetics</h2>
 
+            <!-- <p>
+                Find answers to common questions about our treatments, consultations, safety standards, and personalized aesthetic care to help you make informed decisions with confidence.
+            </p> -->
+        </div>
 
+        <!-- start row -->
+        <div class="row g-4">
+
+            <div class="col-lg-5">
+                <div class="faq-support">
+                    <img src="./assets/image/icon/support-icon.svg" alt="support" class="img-fluid element-1">
+
+                    <h3 class="custom-title">We're here to help with all your aesthetic care questions.</h3>
+
+                    <p class="description">
+                        Our team is ready to guide you with expert advice, treatment recommendations, and personalized
+                        support.
+                    </p>
+
+                    <a href="./contact-us.php" class="btn btn-secondary">
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+
+                <div class="faq-help">
+                    <div class="about-popup-item border-0 pb-0 mb-0">
+                        <div class="support-item">
+                            <div class="avatar avatar-lg rounded-circle flex-shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <p class="title">General Inquiries</p>
+                                <h4 class="link">
+                                    <a href="mailto:info@hokaesthetics.com">info@hokaesthetics.com</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-popup-item border-0 pt-3 mb-0 pb-0">
+                        <div class="support-item">
+                            <div class="avatar avatar-lg rounded-circle flex-shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div>
+                                <p class="title">Call Us</p>
+                                <h4 class="link">
+                                    <a href="tel:+919910169317">+91 99101 69317</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="about-popup-item border-0 pt-3 mb-0">
+                            <div class="support-item">
+                                <div class="avatar avatar-lg bg-primary rounded-circle flex-shrink-0">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+
+                                <div>
+                                    <p class="title">Business Hours</p>
+                                    <h4 class="link">10:00 AM – 7:00 PM</h4>
+                                </div>
+                            </div>
+                        </div> -->
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="faq-info wow zoomIn" data-wow-duration="1s">
+                    <div class="accordion" id="faq-details-one">
+
+                        <!-- FAQ 1 -->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne">
+                                <a href="#" class="accordion-button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How do I book a consultation at HOK Aesthetics?
+                                </a>
+                            </h3>
+
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#faq-details-one">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>
+                                            You can book your consultation by calling us, sending a WhatsApp message, or
+                                            visiting our clinic. Our team will help you schedule a convenient
+                                            appointment and guide you through the entire booking process with ease.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 2 -->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Will I receive a personalized treatment plan?
+                                </a>
+                            </h3>
+
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq-details-one">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>
+                                            Yes, every consultation includes a personalized assessment so we can
+                                            recommend treatments that match your skin, hair, or aesthetic goals while
+                                            ensuring the most suitable and effective approach.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingThree">
+                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I reschedule my appointment if needed?
+                                </a>
+                            </h3>
+
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#faq-details-one">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>
+                                            Absolutely. Contact us as early as possible, and our team will help you
+                                            reschedule your appointment at the next available time with complete
+                                            convenience and flexibility.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 4 -->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingFour">
+                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Are your aesthetic treatments safe?
+                                </a>
+                            </h3>
+
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#faq-details-one">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>
+                                            Yes, our treatments are performed by experienced professionals using
+                                            advanced technology while following strict safety and hygiene standards for
+                                            comfortable, reliable, and natural-looking results every time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingFive">
+                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Which aesthetic treatments do you offer?
+                                </a>
+                            </h3>
+
+                            <div id="collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#faq-details-one">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>
+                                            We offer skin aesthetics, hair restoration, laser treatments, injectables,
+                                            dental aesthetics, body contouring, and personalized wellness solutions
+                                            tailored to your unique beauty and confidence goals.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <!-- <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingSix">
+                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    How long does it take to see treatment results?
+                                </a>
+                            </h3>
+
+                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faq-details-one">
+                                <div class="accordion-body">
+                                    <div class="accordion-content">
+                                        <p>
+                                            Results vary depending on the treatment, but many patients notice visible
+                                            improvements within days or weeks, with continued enhancement as the
+                                            treatment progresses naturally.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end row -->
+    </div>
+</section>
+<!-- End Faq -->
+
+<!-- Testimonials Section -->
+<section class="testimonial-section-seventeen section">
+    <div class="container">
+        <div class="section-header section-header-ten text-center wow fadeInUp mb-5" data-wow-duration="1s">
+            <div class="section-sub-title text-white">
+                <span class="sec-circle" aria-hidden="true"></span>Patient Testimonials
+            </div>
+            <h2 class="section-title text-white">Real Stories, Beautiful Transformations</h2>
+            <p class="text-white">
+                Discover how our personalized treatments, advanced technology, and expert care have helped patients
+                achieve natural-looking results with confidence.
+            </p>
+        </div>
+    </div>
+    <!-- Slider -->
+    <div class="testimonial-slider-seventeen">
+        <?php foreach ($testimonials as $testimonial): ?>
+            <div class="slide-item">
+                <div class="testimonial-item-seventeen">
+                    <div class="testimonial-user">
+                        <img src="<?= $testimonial['image']; ?>" alt="<?= htmlspecialchars($testimonial['name']); ?>"
+                            class="img-fluid">
+
+                        <div class="author-info">
+                            <h3 class="custom-title"><?= htmlspecialchars($testimonial['name']); ?></h3>
+                            <p class="mb-0"><?= htmlspecialchars($testimonial['location']); ?></p>
+                        </div>
+                    </div>
+                    <p class="description">
+                        <?= htmlspecialchars($testimonial['review']); ?>
+                    </p>
+                    <div class="rating">
+                        <?php for ($i = 1; $i <= 5; $i++): ?>
+                            <i class="fas fa-star <?= $i <= $testimonial['rating'] ? 'filled' : ''; ?>"></i>
+                        <?php endfor; ?>
+                    </div>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+    <img class="img-fluid work-bg-one" alt="bg" src="assets/image/bg/work-bg-one.png">
+    <img class="img-fluid work-bg-four" alt="bg" src="assets/image/bg/work-bg-4.png">
+</section>
+<!-- Testimonials Section End -->
+
+<!-- Start Blog Section -->
+<section class="section blog-section-sixteen">
+    <div class="container">
+        <div class="section-header section-header-ten text-center wow fadeInUp mb-5" data-wow-duration="1s">
+            <div class="section-sub-title">
+                <span class="sec-circle" aria-hidden="true"></span>Latest Blogs
+            </div>
+            <h2 class="section-title mb-2">Expert Tips for Skin, Hair & Aesthetic Care</h2>
+            <p>
+                Explore expert insights, treatment guides, and beauty tips from HOK Aesthetics to help you make informed decisions for healthier skin, stronger hair, and lasting confidence.
+            </p>
+        </div>
+        <div class="row justify-content-center row-gap-4 blog-row-sixteen">
+            <?php foreach ($blogs as $blog): ?>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="blog-item-sixteen wow fadeInUp" data-wow-duration="1s">
+                        <div class="blog-overlay">
+                            <a href="blogs.php" class="blog-tag"><?= htmlspecialchars($blog['category']); ?></a>
+
+                            <img src="<?= $blog['image']; ?>"
+                                alt="<?= htmlspecialchars($blog['title']); ?>"
+                                class="img-fluid blog-img">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-info">
+                                <h3 class="custom-title">
+                                    <a href="blogs.php"><?= htmlspecialchars($blog['title']); ?></a>
+                                </h3>
+                                <p class="desc"><?= htmlspecialchars($blog['desc']); ?></p>
+                            </div>
+                            <div class="blog-author justify-content-end">
+                                <div class="blog-date">
+                                    <i class="fa-regular fa-calendar me-1"></i>
+                                    <?= htmlspecialchars($blog['date']); ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+<!-- End Blog Section -->
 
 <?php
 $content = ob_get_clean();
