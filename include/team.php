@@ -16,7 +16,7 @@
             </div>
             <div class="col-xl-3 col-md-6 d-flex wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                 <div class="team-item-seven flex-fill"><a class="team-img" href="" data-discover="true"><img
-                            class="img-fluid" alt="doctor" src="assets/image/team/team-1.jpg"></a>
+                            class="img-fluid" alt="doctor" src="assets/image/team/dr-komal-mehta.jpg"></a>
                     <div class="team-content">
                         <h3 class="custom-title">
                             <a href="dr-komal-mehta.php">Dr. Komal Mehta</a>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-xl-3 col-md-6 d-flex wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                 <div class="team-item-seven flex-fill"><a class="team-img" href="" data-discover="true"><img
-                            class="img-fluid" alt="doctor" src="assets/image/team/team-2.jpg"></a>
+                            class="img-fluid" alt="doctor" src="assets/image/team/dr-monika-garg.jpg"></a>
                     <div class="team-content">
                         <h3 class="custom-title">
                             <a href="dr-monika-garg.php">Dr. Monika Garg</a>

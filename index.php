@@ -74,6 +74,8 @@ include('include/data.php');
                                 <span class="sec-circle" aria-hidden="true"></span>About HOK Aesthetics
                             </div>
 
+                            
+
                             <h2 class="section-title">Premium Skin, Hair & Aesthetic Clinic in Jodhpur</h2>
 
                             <p>
