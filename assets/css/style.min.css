@@ -79442,6 +79442,7 @@ ul li {
 
 .counter-item-seventeen .count {
     font-size: 80px;
+    font-weight: 700;
     background: var(--primary-gradient-200);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #b27c2a;
@@ -84660,7 +84661,7 @@ ul li {
 }
 
 .technology-section {
-    background: #fffaf7;
+    /* background: #fffaf7; */
     position: relative;
 }
 
