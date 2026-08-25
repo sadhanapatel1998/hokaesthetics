@@ -136,13 +136,15 @@
 
   // ---- Turns a service/sub-service name into a URL-safe slug,
   // e.g. "PRP / PRF Therapy" -> "prp-prf-therapy"
-  function svcSlugify(text) {
-    return text
-      .toLowerCase()
-      .replace(/&/g, "and")
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-+|-+$/g, "");
-  }
+function svcSlugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/\s*&\s*/g, " ")      // & remove
+    .replace(/\band\b/g, " ")      // "and" word remove
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
   var svcServicesCols = document.getElementById("svcServicesCols");
   var svcExplorePanel = document.getElementById("svcExplorePanel");
@@ -155,7 +157,7 @@
 
     var listHtml = data.subs
       .map(function (s) {
-        var href = "./" + svcSlugify(s) + ".html";
+        var href = "./" + svcSlugify(s) + ".php";
         return (
           '<li><a href="' +
           href +
@@ -165,7 +167,6 @@
         );
       })
       .join("");
-
     svcExplorePanel.innerHTML =
       '<p class="svc-explore-title">' +
       data.title +
@@ -209,7 +210,7 @@
       var d = svcData[id];
       var subLinksHtml = d.subs
         .map(function (s) {
-          var href = "./" + svcSlugify(s) + ".html";
+          var href = "./" + svcSlugify(s) + ".php";
           return (
             '<a href="' + href + '" class="svc-mobile-sublink">' + s + "</a>"
           );
@@ -222,7 +223,7 @@
         '">' +
         '<a href="./' +
         id +
-        '.html" class="svc-mobile-link">' +
+        '.php" class="svc-mobile-link">' +
         "<span>" +
         d.title +
         "</span>" +

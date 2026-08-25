@@ -82,7 +82,7 @@ $services = [
             ["name" => "Non Surgical Hair Loss Management", "category" => "hair-restoration", "image" => "assets/image/services/non-surgical-hair-loss-management.jpg", "description" => "Advanced therapies to reduce hair fall without surgery."],
             ["name" => "Hair Transplant", "category" => "hair-restoration", "image" => "assets/image/services/hair-transplant.jpg", "description" => "Natural-looking hair restoration with advanced transplant techniques."],
             ["name" => "Scalp Micro Pigmentation", "category" => "hair-restoration", "image" => "assets/image/services/scalp-micro-pigmentation.jpg", "description" => "Create the appearance of fuller hair with scalp pigmentation."],
-            ["name" => "Beard and Eyebrow Restoration", "category" => "hair-restoration", "image" => "assets/image/services/beard-eyebrow-restoration.jpg", "description" => "Restore beard and eyebrow density with precision treatments."]
+            ["name" => "Beard & Eyebrow Restoration", "category" => "hair-restoration", "image" => "assets/image/services/beard-eyebrow-restoration.jpg", "description" => "Restore beard and eyebrow density with precision treatments."]
         ]
     ],
 
