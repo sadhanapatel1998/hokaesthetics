@@ -7,19 +7,23 @@ include('include/data.php');
     <div class="banner-slider-fourteen">
         <div class="banner-slide">
             <img src="assets/image/banner/banner-1.jpg" class="img-fluid banner-image desktop-banner" alt="banner">
-            <img src="assets/image/banner/mobile-banner-1.jpg" class="img-fluid banner-image mobile-banner" alt="banner">
+            <img src="assets/image/banner/mobile-banner-1.jpg" class="img-fluid banner-image mobile-banner"
+                alt="banner">
         </div>
         <div class="banner-slide">
             <img src="assets/image/banner/banner-2.jpg" class="img-fluid banner-image desktop-banner" alt="banner">
-            <img src="assets/image/banner/mobile-banner-2.jpg" class="img-fluid banner-image mobile-banner" alt="banner">
+            <img src="assets/image/banner/mobile-banner-2.jpg" class="img-fluid banner-image mobile-banner"
+                alt="banner">
         </div>
         <div class="banner-slide">
             <img src="assets/image/banner/banner-3.jpg" class="img-fluid banner-image desktop-banner" alt="banner">
-            <img src="assets/image/banner/mobile-banner-3.jpg" class="img-fluid banner-image mobile-banner" alt="banner">
+            <img src="assets/image/banner/mobile-banner-3.jpg" class="img-fluid banner-image mobile-banner"
+                alt="banner">
         </div>
         <div class="banner-slide">
             <img src="assets/image/banner/banner-4.jpg" class="img-fluid banner-image desktop-banner" alt="banner">
-            <img src="assets/image/banner/mobile-banner-4.jpg" class="img-fluid banner-image mobile-banner" alt="banner">
+            <img src="assets/image/banner/mobile-banner-4.jpg" class="img-fluid banner-image mobile-banner"
+                alt="banner">
         </div>
     </div>
     <div class="slide-btn">
@@ -74,53 +78,72 @@ include('include/data.php');
                 <div class="col-lg-6">
                     <div class="about-content-ten">
                         <div class="section-header section-header-ten">
+
                             <div class="section-sub-title">
                                 <span class="sec-circle" aria-hidden="true"></span>About HOK Aesthetics
                             </div>
 
-
-
-                            <h2 class="section-title">Premium Skin, Hair & Aesthetic Clinic in Jodhpur</h2>
-
+                            <h2 class="section-title">Where Science Meets Beauty</h2>
                             <p>
-                                At HOK Aesthetics, we combine advanced technology with personalized care to deliver
-                                safe,
-                                natural-looking results. From skin rejuvenation and hair restoration to Botox, laser
-                                treatments,
-                                and wellness therapies, we're committed to enhancing your confidence.
+                                HOK Aesthetics is a multidisciplinary medical-aesthetic destination combining
+                                specialist expertise in men's sexual health, women's wellness, medical weight
+                                management, facial plastic surgery, and advanced aesthetic medicine.
                             </p>
+                            <!-- <p>
+                                HOK Aesthetics is a multidisciplinary medical-aesthetic destination that brings together
+                                specialist expertise in men's sexual health, women's wellness, medical weight
+                                management, facial plastic surgery, and advanced aesthetic medicine. Our doctor-led
+                                approach combines clinical excellence, modern technology, and personalized care to
+                                deliver safe, natural-looking results tailored to every individual's unique goals and
+                                wellbeing.
+                            </p> -->
+
                         </div>
 
                         <div class="mission-item-ten wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                             <div class="mission-icon">
                                 <div class="mission-inner">
-                                    <img src="./assets/image/about/icon-1.png" alt="Expert Care" class="img-fluid">
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="custom-title">Doctor-Led Expertise</h3>
-                                <p>Safe treatments backed by advanced medical technology.</p>
-                            </div>
-                        </div>
-
-                        <div class="mission-item-ten wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
-                            <div class="mission-icon">
-                                <div class="mission-inner">
-                                    <img src="./assets/image/about/icon-2.png" alt="Personalized Care"
+                                    <img src="./assets/image/about/icon-1.png" alt="Medical Expertise"
                                         class="img-fluid">
                                 </div>
                             </div>
                             <div>
-                                <h3 class="custom-title">Personalized Care</h3>
-                                <p>Customized treatments for natural, long-lasting results.</p>
+                                <h3 class="custom-title">Medical Expertise</h3>
+                                <p>Specialist-led care backed by clinical excellence.</p>
                             </div>
                         </div>
+
+                        <div class="mission-item-ten wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+                            <div class="mission-icon">
+                                <div class="mission-inner">
+                                    <img src="./assets/image/about/icon-2.png" alt="Personalised Care"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="custom-title">Personalised Care</h3>
+                                <p>Treatments tailored to your unique goals.</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="mission-item-ten wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
+                            <div class="mission-icon">
+                                <div class="mission-inner">
+                                    <img src="./assets/image/about/icon-3.png" alt="Better You" class="img-fluid">
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="custom-title">Better You</h3>
+                                <p>Better health, confidence, function, and wellbeing.</p>
+                            </div>
+                        </div> -->
 
                         <div class="view-more mb-md-0 mb-4">
                             <a href="./about-us.php" class="btn btn-secondary">
                                 Read More About
                             </a>
                         </div>
+
                     </div>
                 </div>
                 <!-- About Img -->
@@ -258,52 +281,65 @@ include('include/data.php');
 
                     <h2 class="section-title">Your Trusted Destination for Advanced Aesthetic Care</h2>
 
-                    <p>
-                        At HOK Aesthetics, we combine medical expertise, advanced technology, and personalized treatment
-                        plans to deliver safe, natural-looking results. Every procedure is performed with precision,
-                        honesty, and a commitment to helping you look and feel your best.
+                    <p >
+                        At HOK Aesthetics, we combine medical expertise, advanced technology, and personalized care to deliver safe, natural-looking results with precision and confidence.
                     </p>
                 </div>
+                <div class="row justify-content-center g-4 mt-3">
 
-                <div class="row justify-content-center g-4">
-
-                    <div class="col-sm-6 col-lg-4 d-flex">
-                        <div class="choose-item-two flex-fill">
-                            <div class="choose-icon">
-                                <i class="fa-solid fa-flask-vial"></i>
-                            </div>
-                            <h3 class="custom-title">Science Driven</h3>
-                            <p>Advanced treatments backed by modern medical technology.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-4 d-flex">
+                    <!-- Specialist-Led -->
+                    <div class="col-sm-6 col-lg-6 d-flex">
                         <div class="choose-item-two flex-fill">
                             <div class="choose-icon">
                                 <i class="fa-solid fa-user-doctor"></i>
                             </div>
-                            <h3 class="custom-title">Personalized Care</h3>
-                            <p>Customized solutions designed for your unique aesthetic goals.</p>
+                            <div>
+                                <h3 class="custom-title">Specialist-Led</h3>
+                                <p>Expert care from doctors dedicated to your specific concerns.</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-lg-4 d-flex">
+                    <!-- Medical First -->
+                    <div class="col-sm-6 col-lg-6 d-flex">
                         <div class="choose-item-two flex-fill">
                             <div class="choose-icon">
                                 <i class="fa-solid fa-shield-heart"></i>
                             </div>
-                            <h3 class="custom-title">Safe & Trusted</h3>
-                            <p>Doctor-led procedures focused on natural, visible results.</p>
+                            <div>
+                                <h3 class="custom-title">Medical First</h3>
+                                <p>Clinical assessment comes before every treatment recommendation.</p>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- <div class="view-top">
-                        <a href="./about-us.html" class="btn btn-secondary">
-                            Read More
-                        </a>
-                    </div> -->
-                </div>
+                    <!-- Personalised -->
+                    <div class="col-sm-6 col-lg-6 d-flex">
+                        <div class="choose-item-two flex-fill">
+                            <div class="choose-icon">
+                                <i class="fa-solid fa-sliders"></i>
+                            </div>
+                            <div>
+                                <h3 class="custom-title">Personalised</h3>
+                                <p>Treatment plans tailored to your goals and individual needs.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Advanced Technology -->
+                    <div class="col-sm-6 col-lg-6 d-flex">
+                        <div class="choose-item-two flex-fill">
+                            <div class="choose-icon">
+                                <i class="fa-solid fa-microchip"></i>
+                            </div>
+                            <div>
+                                <h3 class="custom-title">Advanced</h3>
+                                <p>Modern technology delivering precise and natural-looking results.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -444,12 +480,7 @@ include('include/data.php');
             <div class="section-sub-title">
                 <span class="sec-circle" aria-hidden="true"></span>Frequently Asked Questions
             </div>
-
             <h2 class="section-title">Everything You Need to Know About HOK Aesthetics</h2>
-
-            <!-- <p>
-                Find answers to common questions about our treatments, consultations, safety standards, and personalized aesthetic care to help you make informed decisions with confidence.
-            </p> -->
         </div>
 
         <!-- start row -->
@@ -524,22 +555,18 @@ include('include/data.php');
                         <!-- FAQ 1 -->
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingOne">
-                                <a href="#" class="accordion-button" data-bs-toggle="collapse"
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How do I book a consultation at HOK Aesthetics?
-                                </a>
+                                    How do I book a private consultation at HOK Aesthetics?
+                                </button>
                             </h3>
 
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 data-bs-parent="#faq-details-one">
                                 <div class="accordion-body">
-                                    <div class="accordion-content">
-                                        <p>
-                                            You can book your consultation by calling us, sending a WhatsApp message, or
-                                            visiting our clinic. Our team will help you schedule a convenient
-                                            appointment and guide you through the entire booking process with ease.
-                                        </p>
-                                    </div>
+                                    <p>You can book a private consultation by calling us, sending a WhatsApp message, or
+                                        submitting an enquiry through our website. Our team will help you schedule a
+                                        convenient appointment with the appropriate specialist.</p>
                                 </div>
                             </div>
                         </div>
@@ -547,21 +574,17 @@ include('include/data.php');
                         <!-- FAQ 2 -->
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingTwo">
-                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Will I receive a personalized treatment plan?
-                                </a>
+                                    Will I receive a personalised treatment plan?
+                                </button>
                             </h3>
 
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq-details-one">
                                 <div class="accordion-body">
-                                    <div class="accordion-content">
-                                        <p>
-                                            Yes, every consultation includes a personalized assessment so we can
-                                            recommend treatments that match your skin, hair, or aesthetic goals while
-                                            ensuring the most suitable and effective approach.
-                                        </p>
-                                    </div>
+                                    <p>Yes. Every consultation begins with a detailed medical assessment so that your
+                                        treatment plan is tailored to your individual concerns, goals, and clinical
+                                        suitability.</p>
                                 </div>
                             </div>
                         </div>
@@ -569,22 +592,18 @@ include('include/data.php');
                         <!-- FAQ 3 -->
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingThree">
-                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Can I reschedule my appointment if needed?
-                                </a>
+                                    Are consultations confidential?
+                                </button>
                             </h3>
 
                             <div id="collapseThree" class="accordion-collapse collapse"
                                 data-bs-parent="#faq-details-one">
                                 <div class="accordion-body">
-                                    <div class="accordion-content">
-                                        <p>
-                                            Absolutely. Contact us as early as possible, and our team will help you
-                                            reschedule your appointment at the next available time with complete
-                                            convenience and flexibility.
-                                        </p>
-                                    </div>
+                                    <p>Absolutely. We provide a discreet and confidential environment, particularly for
+                                        intimate concerns such as men's sexual health, women's wellness, and other
+                                        personal medical consultations.</p>
                                 </div>
                             </div>
                         </div>
@@ -592,22 +611,18 @@ include('include/data.php');
                         <!-- FAQ 4 -->
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingFour">
-                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Are your aesthetic treatments safe?
-                                </a>
+                                    Which specialists are available at HOK Aesthetics?
+                                </button>
                             </h3>
 
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 data-bs-parent="#faq-details-one">
                                 <div class="accordion-body">
-                                    <div class="accordion-content">
-                                        <p>
-                                            Yes, our treatments are performed by experienced professionals using
-                                            advanced technology while following strict safety and hygiene standards for
-                                            comfortable, reliable, and natural-looking results every time.
-                                        </p>
-                                    </div>
+                                    <p>Our multidisciplinary team includes specialists in men's sexual health, women's
+                                        wellness, medical weight management, facial plastic & reconstructive surgery,
+                                        and advanced aesthetic medicine.</p>
                                 </div>
                             </div>
                         </div>
@@ -615,48 +630,37 @@ include('include/data.php');
                         <!-- FAQ 5 -->
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingFive">
-                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Which aesthetic treatments do you offer?
-                                </a>
+                                    Are your treatments medically supervised?
+                                </button>
                             </h3>
 
                             <div id="collapseFive" class="accordion-collapse collapse"
                                 data-bs-parent="#faq-details-one">
                                 <div class="accordion-body">
-                                    <div class="accordion-content">
-                                        <p>
-                                            We offer skin aesthetics, hair restoration, laser treatments, injectables,
-                                            dental aesthetics, body contouring, and personalized wellness solutions
-                                            tailored to your unique beauty and confidence goals.
-                                        </p>
-                                    </div>
+                                    <p>Yes. Treatments are performed by qualified medical professionals using advanced
+                                        technology, with recommendations based on clinical assessment, safety protocols,
+                                        and informed consent.</p>
                                 </div>
                             </div>
                         </div>
 
                         <!-- FAQ 6 -->
                         <!-- <div class="accordion-item">
-                            <h3 class="accordion-header" id="headingSix">
-                                <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    How long does it take to see treatment results?
-                                </a>
-                            </h3>
-
-                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faq-details-one">
-                                <div class="accordion-body">
-                                    <div class="accordion-content">
-                                        <p>
-                                            Results vary depending on the treatment, but many patients notice visible
-                                            improvements within days or weeks, with continued enhancement as the
-                                            treatment progresses naturally.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-
+                              <h3 class="accordion-header" id="headingSix">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                      data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                      What services does HOK Aesthetics offer?
+                                  </button>
+                              </h3>
+                          
+                              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faq-details-one">
+                                  <div class="accordion-body">
+                                      <p>We offer men's sexual health treatments, women's wellness procedures, medical weight management, facial plastic & reconstructive surgery, and advanced skin, hair, face, and body aesthetic treatments.</p>
+                                  </div>
+                              </div>
+                          </div> -->
                     </div>
                 </div>
             </div>
@@ -721,7 +725,8 @@ include('include/data.php');
             </div>
             <h2 class="section-title mb-2">Expert Tips for Skin, Hair & Aesthetic Care</h2>
             <p>
-                Explore expert insights, treatment guides, and beauty tips from HOK Aesthetics to help you make informed decisions for healthier skin, stronger hair, and lasting confidence.
+                Explore expert insights, treatment guides, and beauty tips from HOK Aesthetics to help you make informed
+                decisions for healthier skin, stronger hair, and lasting confidence.
             </p>
         </div>
         <div class="row justify-content-center row-gap-4 blog-row-sixteen">
@@ -731,8 +736,7 @@ include('include/data.php');
                         <div class="blog-overlay">
                             <a href="blogs.php" class="blog-tag"><?= htmlspecialchars($blog['category']); ?></a>
 
-                            <img src="<?= $blog['image']; ?>"
-                                alt="<?= htmlspecialchars($blog['title']); ?>"
+                            <img src="<?= $blog['image']; ?>" alt="<?= htmlspecialchars($blog['title']); ?>"
                                 class="img-fluid blog-img">
                         </div>
                         <div class="blog-content">

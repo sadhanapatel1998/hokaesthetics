@@ -239,6 +239,7 @@ $testimonials = [
         "rating" => 5
     ]
 ];
+
 $blogs = [
     [
         "category" => "Skin Care",
@@ -266,6 +267,7 @@ $blogs = [
 $footerMenu = [
     ["name" => "Home", "link" => "index.php"],
     ["name" => "About Us", "link" => "about-us.php"],
+    ["name" => "Our Team", "link" => "all-team.php"],
     ["name" => "Technology", "link" => "technology.php"],
     ["name" => "Gallery", "link" => "gallery.php"],
     ["name" => "Blogs", "link" => "blog.php"],
@@ -294,54 +296,93 @@ $marqueeItems = [
 
 $technologies = [
     [
-        "title"=>"Diode Laser",
-        "image"=>"assets/image/technologies/diode-laser.jpg",
-        "desc"=>"Advanced hair reduction with long-lasting results."
+        "title" => "Diode Laser",
+        "image" => "assets/image/technologies/diode-laser.jpg",
+        "desc" => "Advanced hair reduction with long-lasting results."
     ],
     [
-        "title"=>"HIFU Technology",
-        "image"=>"assets/image/technologies/hifu.jpg",
-        "desc"=>"Non-surgical skin lifting and facial tightening."
+        "title" => "HIFU Technology",
+        "image" => "assets/image/technologies/hifu.jpg",
+        "desc" => "Non-surgical skin lifting and facial tightening."
     ],
     [
-        "title"=>"ND:YAG Laser",
-        "image"=>"assets/image/technologies/nd-yag-laser.jpg",
-        "desc"=>"Treats pigmentation and vascular lesions safely."
+        "title" => "ND:YAG Laser",
+        "image" => "assets/image/technologies/nd-yag-laser.jpg",
+        "desc" => "Treats pigmentation and vascular lesions safely."
     ],
     [
-        "title"=>"RF Microneedling",
-        "image"=>"assets/image/technologies/rf-microneedling.jpg",
-        "desc"=>"Improves skin tightening and rejuvenation naturally."
+        "title" => "RF Microneedling",
+        "image" => "assets/image/technologies/rf-microneedling.jpg",
+        "desc" => "Improves skin tightening and rejuvenation naturally."
     ],
     [
-        "title"=>"Q-Switch Laser",
-        "image"=>"assets/image/technologies/q-switch-laser.jpg",
-        "desc"=>"Reduces tattoos and stubborn pigmentation effectively."
+        "title" => "Q-Switch Laser",
+        "image" => "assets/image/technologies/q-switch-laser.jpg",
+        "desc" => "Reduces tattoos and stubborn pigmentation effectively."
     ],
     [
-        "title"=>"Hydrafacial System",
-        "image"=>"assets/image/technologies/hydrafacial.jpg",
-        "desc"=>"Deep cleansing and intense skin hydration treatment."
+        "title" => "Hydrafacial System",
+        "image" => "assets/image/technologies/hydrafacial.jpg",
+        "desc" => "Deep cleansing and intense skin hydration treatment."
     ],
     [
-        "title"=>"CO₂ Fractional Laser",
-        "image"=>"assets/image/technologies/co2-fractional-laser.jpg",
-        "desc"=>"Skin resurfacing with scar revision benefits."
+        "title" => "CO₂ Fractional Laser",
+        "image" => "assets/image/technologies/co2-fractional-laser.jpg",
+        "desc" => "Skin resurfacing with scar revision benefits."
     ],
     [
-        "title"=>"Body Contouring",
-        "image"=>"assets/image/technologies/body-contouring.jpg",
-        "desc"=>"Supports fat reduction and body shaping goals."
+        "title" => "Body Contouring",
+        "image" => "assets/image/technologies/body-contouring.jpg",
+        "desc" => "Supports fat reduction and body shaping goals."
     ],
     [
-        "title"=>"Cryotherapy",
-        "image"=>"assets/image/technologies/cryotherapy.jpg",
-        "desc"=>"Advanced cooling therapy for firmer, healthier skin."
+        "title" => "Cryotherapy",
+        "image" => "assets/image/technologies/cryotherapy.jpg",
+        "desc" => "Advanced cooling therapy for firmer, healthier skin."
     ],
     [
-        "title"=>"Aesthetic IV Therapy",
-        "image"=>"assets/image/technologies/aesthetic-iv-therapy.jpg",
-        "desc"=>"Nourishes skin while boosting hydration and wellness."
+        "title" => "Aesthetic IV Therapy",
+        "image" => "assets/image/technologies/aesthetic-iv-therapy.jpg",
+        "desc" => "Nourishes skin while boosting hydration and wellness."
     ]
 ];
-?>
+
+
+$team = [
+    [
+        'name' => 'Dr. Komal Mehta',
+        'designation' => 'Founder & Medical Director',
+        'image' => 'assets/image/team/dr-komal-mehta.jpg',
+        'link' => 'dr-komal-mehta.php'
+    ],
+    [
+        'name' => 'Dr. Pawan Mehta',
+        'designation' => 'Director & Founder | Urology Specialist',
+        'image' => 'assets/image/team/dr-pawan-mehta.jpg',
+        'link' => 'dr-pawan-mehta.php'
+    ],
+    [
+        'name' => 'Dr. Monika Garg',
+        'designation' => 'Senior Dental Surgeon',
+        'image' => 'assets/image/team/dr-monika-garg.jpg',
+        'link' => 'dr-monika-garg.php'
+    ],
+    [
+        'name' => 'Dr. Gaurav Garg',
+        'designation' => 'Senior Dental Surgeon',
+        'image' => 'assets/image/team/dr-gaurav-garg.jpg',
+        'link' => 'dr-gaurav-garg.php'
+    ],
+    [
+        'name' => 'Dr. Sumeet Shinde',
+        'designation' => 'Facial Plastic & Reconstructive Surgeon',
+        'image' => 'assets/image/team/dr-sumeet-shinde.jpg',
+        'link' => 'dr-sumeet-shinde.php'
+    ],
+    [
+        'name' => 'Dr. Amar Singh',
+        'designation' => 'Plastic Surgery Expert',
+        'image' => 'assets/image/team/dr-amar-singh.jpg',
+        'link' => 'dr-amar-singh.php'
+    ]
+];

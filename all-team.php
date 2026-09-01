@@ -1,3 +1,25 @@
+<?php
+ob_start();
+include('include/data.php');
+?>
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row align-items-center inner-banner">
+            <div class="col-md-12 col-12 text-center">
+                <nav aria-label="breadcrumb" class="page-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.php" aria-label="home"><i
+                                    class="fas fa-home"></i></a></li>
+                        <li class="breadcrumb-item active">Our Team</li>
+                    </ol>
+                    <h2 class="breadcrumb-title">Our Team</h2>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <section class="team-section-seven section">
     <div class="container">
         <div class="row g-4 align-center text-center ">
@@ -15,7 +37,7 @@
         </div>
 
         <div class="row g-4 align-center">
-            <?php foreach (array_slice($team, 0, 4) as $doctor): ?>
+            <?php foreach ($team as $doctor): ?>
 
                 <div class="col-xl-3 col-md-3 d-flex wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                     <div class="team-item-seven flex-fill">
@@ -43,13 +65,11 @@
 
             <?php endforeach; ?>
         </div>
-
-        <div class="row align-center text-center mt-5">
-            <div class="col-xl-8 col-md-6 wow fadeInUp" data-wow-delay="1.5s" data-wow-duration="1s">
-                <a href="all-team.php" class="btn btn-secondary">
-                    <span>Meet Our All Specialists</span>
-                </a>
-            </div>
-        </div>
     </div>
 </section>
+
+
+<?php
+$content = ob_get_clean();
+require 'layout.php';
+?>

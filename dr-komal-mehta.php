@@ -176,86 +176,85 @@ ob_start();
 </section>
 
 
-<!-- ================= THE HOK DIFFERENCE ================= -->
+<!-- ================= Areas of Expertise ================= -->
 
 <section class="expertise-section section">
     <div class="container">
 
         <div class="text-center mb-4">
             <span class="expertise-heading divider-left divider-right">
-                The HOK Difference
+                Signature Services
             </span>
         </div>
 
-        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3">
-
-            <div class="col d-flex">
-                <div class="expertise-item h-100 w-100">
-                    <div class="expertise-icon"><i class="bi bi-person-badge"></i></div>
-                    <span>Doctor-Led Consultations</span>
-                </div>
-            </div>
-
-            <div class="col d-flex">
-                <div class="expertise-item h-100 w-100">
-                    <div class="expertise-icon"><i class="bi bi-patch-check"></i></div>
-                    <span>Trusted Medical Technology</span>
-                </div>
-            </div>
-
-            <div class="col d-flex">
-                <div class="expertise-item h-100 w-100">
-                    <div class="expertise-icon"><i class="bi bi-shield-check"></i></div>
-                    <span>Premium Safety Standards</span>
-                </div>
-            </div>
-
-            <div class="col d-flex">
-                <div class="expertise-item h-100 w-100">
-                    <div class="expertise-icon"><i class="bi bi-sliders"></i></div>
-                    <span>Customized Treatment Plans</span>
-                </div>
-            </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3">
 
             <div class="col d-flex">
                 <div class="expertise-item h-100 w-100">
                     <div class="expertise-icon"><i class="bi bi-stars"></i></div>
-                    <span>Visible Natural Outcomes</span>
+                    <span>Skin Aesthetics</span>
                 </div>
             </div>
 
             <div class="col d-flex">
                 <div class="expertise-item h-100 w-100">
-                    <div class="expertise-icon"><i class="bi bi-eye"></i></div>
-                    <span>Transparent Consultations</span>
+                    <div class="expertise-icon"><i class="bi bi-scissors"></i></div>
+                    <span>Hair Restoration</span>
                 </div>
             </div>
 
             <div class="col d-flex">
                 <div class="expertise-item h-100 w-100">
-                    <div class="expertise-icon"><i class="bi bi-heart"></i></div>
-                    <span>Patient-Centered Experience</span>
-                </div>
-            </div>
-
-            <div class="col d-flex">
-                <div class="expertise-item h-100 w-100">
-                    <div class="expertise-icon"><i class="bi bi-gem"></i></div>
-                    <span>Luxury Aesthetic Care</span>
+                    <div class="expertise-icon"><i class="bi bi-eyedropper"></i></div>
+                    <span>Injectables</span>
                 </div>
             </div>
 
             <div class="col d-flex">
                 <div class="expertise-item h-100 w-100">
                     <div class="expertise-icon"><i class="bi bi-lightning-charge"></i></div>
-                    <span>Advanced Procedures</span>
+                    <span>Laser & Energy</span>
+                </div>
+            </div>
+
+            <div class="col d-flex">
+                <div class="expertise-item h-100 w-100">
+                    <div class="expertise-icon"><i class="bi bi-person-standing"></i></div>
+                    <span>Body Shaping</span>
                 </div>
             </div>
 
             <div class="col d-flex">
                 <div class="expertise-item h-100 w-100">
                     <div class="expertise-icon"><i class="bi bi-emoji-smile"></i></div>
-                    <span>Confidence That Lasts</span>
+                    <span>Facial Aesthetics</span>
+                </div>
+            </div>
+
+            <div class="col d-flex">
+                <div class="expertise-item h-100 w-100">
+                    <div class="expertise-icon"><i class="bi bi-gender-female"></i></div>
+                    <span>Aesthetic Gynaecology</span>
+                </div>
+            </div>
+
+            <div class="col d-flex">
+                <div class="expertise-item h-100 w-100">
+                    <div class="expertise-icon"><i class="bi bi-droplet-half"></i></div>
+                    <span>Wellness & IV Therapy</span>
+                </div>
+            </div>
+            <div class="col d-flex">
+                <div class="expertise-item h-100 w-100">
+                    <div class="expertise-icon"><i class="bi bi-heart-pulse"></i></div>
+                    <span>Vaginal Wellness</span>
+                </div>
+            </div>
+
+            <div class="col d-flex">
+                <div class="expertise-item h-100 w-100">
+                    <div class="expertise-icon"><i class="bi bi-person-standing"></i></div>
+                    <span>Body Composition</span>
                 </div>
             </div>
 
@@ -263,7 +262,6 @@ ob_start();
 
     </div>
 </section>
-
 
 <!-- ================= BEAUTY APPROACH ================= -->
 

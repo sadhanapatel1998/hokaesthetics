@@ -6,10 +6,10 @@
 							<p><i class="isax isax-message-text5 me-1"></i><a href="mailto:info@hokaesthetics.com" class="text-white">info@example.com</a></p>
 							<p><i class="isax isax-call5 me-1"></i><a href="tel:+919910169317" class="text-white">+91 99101 69317</a></p>
 							<p><i class="isax isax-location5 me-1"></i>
-							<a href="https://maps.app.goo.gl/Q6zRV4i582EMGv6T9" target="_blank" rel="noopener noreferrer" class="text-white"> B-9, 1st Floor, Shubham Enclave, Paschim Vihar,
-		                                        New Delhi – 110063
-												</a> 
-						</p>
+								<a href="https://maps.app.goo.gl/Q6zRV4i582EMGv6T9" target="_blank" rel="noopener noreferrer" class="text-white"> B-9, 1st Floor, Shubham Enclave, Paschim Vihar,
+									New Delhi – 110063
+								</a>
+							</p>
 						</div>
 						<ul>
 							<!-- <li class="drop-header">
@@ -162,6 +162,10 @@
 											<!-- filled by JS -->
 										</div>
 									</div>
+								</li>
+
+								<li class="">
+									<a href="team.php" class="main-menu">Our Team</a>
 								</li>
 
 								<li class="">

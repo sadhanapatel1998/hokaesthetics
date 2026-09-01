@@ -56945,7 +56945,8 @@ ul {
 
 ul li {
     list-style-type: none;
-    font-size: 15px;
+    font-size: 16px;
+    color: var(--gray-800);
 }
 
 .swiper-slide .img-swiper {
@@ -68166,7 +68167,7 @@ ul li {
 } */
 
 .choose-section-seventeen .choose-icon i {
-    font-size: 30px;
+    font-size: 28px;
     color: #fff;
 }
 
@@ -68197,6 +68198,9 @@ ul li {
 }
 
 .choose-item-two {
+    display: flex;
+    align-items: center;
+    justify-content: start;
     background: var(--white);
     border: 1px solid var(--gray-200);
     border-radius: 12px;
@@ -68210,8 +68214,9 @@ ul li {
 }
 
 .choose-item-two .choose-icon {
-    width: 80px;
-    height: 80px;
+    min-width: 70px !important;
+    height: 70px;
+        margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85039,7 +85044,7 @@ footer.site-foot {
     position: relative;
 }
 
-.doctor-about-card::before {
+/* .doctor-about-card::before {
     content: "";
     position: absolute;
     top: -120px;
@@ -85048,7 +85053,7 @@ footer.site-foot {
     height: 260px;
     background: rgba(199, 154, 59, .06);
     border-radius: 50%;
-}
+} */
 
 /* Image */
 
