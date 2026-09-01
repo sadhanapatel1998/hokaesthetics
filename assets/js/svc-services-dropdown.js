@@ -175,7 +175,7 @@ function svcSlugify(text) {
       '<ul class="svc-explore-list">' +
       listHtml +
       "</ul>" +
-      '<a href="#" class="svc-explore-btn"> View All Services <i class="fas fa-arrow-right"></i></a>';
+      '<a href="all-services.php" class="svc-explore-btn"> View All Services <i class="fas fa-arrow-right"></i></a>';
     // '<a href="#" class="svc-explore-btn">VIEW ALL ' + data.title.toUpperCase() + ' SERVICES <i class="fas fa-arrow-right"></i></a>';
 
     svcExplorePanel.classList.remove("svc-explore-fade");

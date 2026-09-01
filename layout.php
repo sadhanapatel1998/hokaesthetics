@@ -1,3 +1,4 @@
+<?php include('seo.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,11 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Doccure</title>
+    <title><?= $pageMeta['title']; ?></title>
+    <meta name="description" content="<?= $pageMeta['description']; ?>">
+    <meta name="keywords" content="<?= $pageMeta['keywords']; ?>">
+    <meta name="robots" content="<?= $pageMeta['robots']; ?>">
+    <link rel="canonical" href="<?= $pageMeta['canonical']; ?>">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/image/favicon/apple-touch-icon.png">
@@ -74,12 +79,21 @@
         <?php require_once("include/header.php"); ?>
         <?= $content ?? ''; ?>
         <?php require_once('include/footer.php') ?>
-
-
         <!-- Cursor -->
         <div class="mouse-cursor cursor-outer d-none"></div>
         <div class="mouse-cursor cursor-inner d-none"></div>
         <!-- /Cursor -->
+
+
+        <div class="contact-dock">
+            <a href="tel:+919910169317" class="dock-btn call" aria-label="Call">
+                <i class="bi bi-telephone-fill"></i>
+            </a>
+
+            <a href="https://wa.me/919910169317" target="_blank" class="dock-btn whatsapp" aria-label="WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+        </div>
 
     </div>
     <!-- /Main Wrapper -->
@@ -122,6 +136,34 @@
 
     <!-- Custom JS -->
     <script src="./assets/js/script.min.js"></script>
+
+    <script>
+        document.getElementById("whatsappForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const phone = document.getElementById("phone").value.trim();
+            const subject = document.getElementById("subject").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            const whatsappNumber = "919910169317"; // Replace with your WhatsApp number
+
+            const text =
+                `*New Contact Form Enquiry - HOK Aesthetics*
+
+                 *Name:* ${name}
+                 *Email:* ${email}
+                 *Phone:* ${phone}
+                 *Subject:* ${subject}
+                
+                 *Message:*
+                ${message}`;
+
+                const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+                window.open(url, "_blank");
+        });
+    </script>
 
 
 </body>

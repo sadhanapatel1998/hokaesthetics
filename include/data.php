@@ -130,7 +130,7 @@ $services = [
             ["name" => "Medical Weight Loss Program", "category" => "weight-loss-management", "image" => "assets/image/services/medical-weight-loss-program.jpg", "description" => "Doctor-supervised weight loss tailored to your health goals."],
             ["name" => "Fat Loss Treatments", "category" => "weight-loss-management", "image" => "assets/image/services/fat-loss-treatments.jpg", "description" => "Target stubborn fat with advanced body contouring solutions."],
             ["name" => "Metabolism Enhancement", "category" => "weight-loss-management", "image" => "assets/image/services/metabolism-enhancement.jpg", "description" => "Support healthy metabolism through personalized care."],
-            ["name" => "Nutrition and Lifestyle Guidance", "category" => "weight-loss-management", "image" => "assets/image/services/nutrition-lifestyle-guidance.jpg", "description" => "Sustainable nutrition plans for long-term wellness."],
+            ["name" => "Nutrition & Lifestyle Guidance", "category" => "weight-loss-management", "image" => "assets/image/services/nutrition-lifestyle-guidance.jpg", "description" => "Sustainable nutrition plans for long-term wellness."],
             ["name" => "Anti Obesity Pharmacotherapy", "category" => "weight-loss-management", "image" => "assets/image/services/anti-obesity-pharmacotherapy.jpg", "description" => "Medical support for effective obesity management."],
             ["name" => "Weight Maintenance Program", "category" => "weight-loss-management", "image" => "assets/image/services/weight-maintenance-program.jpg", "description" => "Maintain healthy results with expert follow-up care."]
         ]
@@ -141,12 +141,12 @@ $services = [
         "image" => "assets/image/services/advance-facial.jpg",
         "icon" => "fas fa-smile",
         "subs" => [
-            ["name" => "Skin Glow and Brightness", "category" => "advance-facial", "image" => "assets/image/services/skin-glow-brightness.jpg", "description" => "Boost radiance for naturally glowing, healthy-looking skin."],
+            ["name" => "Skin Glow & Brightness", "category" => "advance-facial", "image" => "assets/image/services/skin-glow-brightness.jpg", "description" => "Boost radiance for naturally glowing, healthy-looking skin."],
             ["name" => "Hydra Facials", "category" => "advance-facial", "image" => "assets/image/services/hydra-facials.jpg", "description" => "Deep cleanse, hydrate, and refresh your skin instantly."],
             ["name" => "Carbon Laser Facials", "category" => "advance-facial", "image" => "assets/image/services/carbon-laser-facials.jpg", "description" => "Refine pores and improve skin clarity with laser technology."],
             ["name" => "Korean Glass Facial", "category" => "advance-facial", "image" => "assets/image/services/korean-glass-facial.jpg", "description" => "Achieve smooth, luminous glass-like skin."],
-            ["name" => "Fire and Ice Facial", "category" => "advance-facial", "image" => "assets/image/services/fire-ice-facial.jpg", "description" => "Revitalize skin with a premium dual-action facial."],
-            ["name" => "Acne and Pore Facial", "category" => "advance-facial", "image" => "assets/image/services/acne-pore-facial.jpg", "description" => "Cleanse congested pores while calming acne-prone skin."],
+            ["name" => "Fire & Ice Facial", "category" => "advance-facial", "image" => "assets/image/services/fire-ice-facial.jpg", "description" => "Revitalize skin with a premium dual-action facial."],
+            ["name" => "Acne & Pore Facial", "category" => "advance-facial", "image" => "assets/image/services/acne-pore-facial.jpg", "description" => "Cleanse congested pores while calming acne-prone skin."],
             ["name" => "Vampire Facial", "category" => "advance-facial", "image" => "assets/image/services/vampire-facial.jpg", "description" => "PRP-powered facial for natural skin rejuvenation."],
             ["name" => "Medical Derma Facial", "category" => "advance-facial", "image" => "assets/image/services/medical-derma-facial.jpg", "description" => "Professional facial designed for healthier, radiant skin."]
         ]
@@ -157,12 +157,12 @@ $services = [
         "image" => "assets/image/services/permanent-makeup.jpg",
         "icon" => "fas fa-paint-brush",
         "subs" => [
-            ["name" => "Permanent Microblading", "category" => "permanent-makeup", "image" => "assets/image/services/microblading.jpg", "description" => "Natural-looking eyebrow enhancement with precise strokes."],
-            ["name" => "Permanent Powder Brows", "category" => "permanent-makeup", "image" => "assets/image/services/powder-brows.jpg", "description" => "Soft, filled-in brows with long-lasting results."],
-            ["name" => "Permanent Lip Blush", "category" => "permanent-makeup", "image" => "assets/image/services/lip-blush.jpg", "description" => "Enhance natural lip color and definition beautifully."],
-            ["name" => "Permanent Ombre Brows", "category" => "permanent-makeup", "image" => "assets/image/services/ombre-brows.jpg", "description" => "Create elegant gradient brows with lasting beauty."],
-            ["name" => "Permanent Eyeliner", "category" => "permanent-makeup", "image" => "assets/image/services/permanent-eyeliner.jpg", "description" => "Wake up with perfectly defined eyes every day."],
-            ["name" => "Permanent Lip Liner", "category" => "permanent-makeup", "image" => "assets/image/services/lip-liner.jpg", "description" => "Improve lip shape with permanent definition."],
+            ["name" => "Microblading", "category" => "permanent-makeup", "image" => "assets/image/services/microblading.jpg", "description" => "Natural-looking eyebrow enhancement with precise strokes."],
+            ["name" => "Powder Brows", "category" => "permanent-makeup", "image" => "assets/image/services/powder-brows.jpg", "description" => "Soft, filled-in brows with long-lasting results."],
+            ["name" => "Lip Blush", "category" => "permanent-makeup", "image" => "assets/image/services/lip-blush.jpg", "description" => "Enhance natural lip color and definition beautifully."],
+            ["name" => "Ombre Brows", "category" => "permanent-makeup", "image" => "assets/image/services/ombre-brows.jpg", "description" => "Create elegant gradient brows with lasting beauty."],
+            ["name" => "Eyeliner", "category" => "permanent-makeup", "image" => "assets/image/services/permanent-eyeliner.jpg", "description" => "Wake up with perfectly defined eyes every day."],
+            ["name" => "Lip Liner", "category" => "permanent-makeup", "image" => "assets/image/services/lip-liner.jpg", "description" => "Improve lip shape with permanent definition."],
             ["name" => "Scalp Micropigmentation", "category" => "permanent-makeup", "image" => "assets/image/services/scalp-micropigmentation.jpg", "description" => "Create the illusion of fuller hair density."],
             ["name" => "Lash Line Enhancement", "category" => "permanent-makeup", "image" => "assets/image/services/lash-line-enhancement.jpg", "description" => "Subtle lash definition for naturally enhanced eyes."],
             ["name" => "Beauty Marks", "category" => "permanent-makeup", "image" => "assets/image/services/beauty-marks.jpg", "description" => "Elegant beauty marks with safe cosmetic pigmentation."],
@@ -171,7 +171,7 @@ $services = [
     ],
 
     "gynaecology-aesthetics" => [
-        "title" => "Gynaecology Aesthetics",
+        "title" => "Gynaecology  Aesthetics",
         "image" => "assets/image/services/gynaecology-aesthetics.jpg",
         "icon" => "fas fa-venus",
         "subs" => [
@@ -180,7 +180,7 @@ $services = [
             ["name" => "Vaginal Tightening", "category" => "gynaecology-aesthetics", "image" => "assets/image/services/vaginal-tightening.jpg", "description" => "Non-surgical rejuvenation for improved confidence and comfort."],
             ["name" => "Vaginal Dryness Treatment", "category" => "gynaecology-aesthetics", "image" => "assets/image/services/vaginal-dryness-treatment.jpg", "description" => "Restore comfort with advanced intimate wellness solutions."],
             ["name" => "Urinary Leakage Management", "category" => "gynaecology-aesthetics", "image" => "assets/image/services/urinary-leakage-management.jpg", "description" => "Treat urinary leakage with modern non-invasive therapies."],
-            ["name" => "Intimate Injectable and PRP", "category" => "gynaecology-aesthetics", "image" => "assets/image/services/intimate-injectable-prp.jpg", "description" => "PRP and injectable treatments for intimate rejuvenation."]
+            ["name" => "Intimate Injectable & PRP", "category" => "gynaecology-aesthetics", "image" => "assets/image/services/intimate-injectable-prp.jpg", "description" => "PRP and injectable treatments for intimate rejuvenation."]
         ]
     ],
 
@@ -191,10 +191,10 @@ $services = [
         "subs" => [
             ["name" => "Teeth Whitening", "category" => "dental-aesthetics", "image" => "assets/image/services/teeth-whitening.jpg", "description" => "Brighten your smile with professional whitening treatments."],
             ["name" => "Gummy Smile Treatment", "category" => "dental-aesthetics", "image" => "assets/image/services/gummy-smile-treatment.jpg", "description" => "Achieve a balanced smile with advanced aesthetic care."],
-            ["name" => "Aesthetic Crown and Bridges", "category" => "dental-aesthetics", "image" => "assets/image/services/aesthetic-crown-bridges.jpg", "description" => "Natural-looking crowns and bridges for a confident smile."],
+            ["name" => "Aesthetic Crown & Bridges", "category" => "dental-aesthetics", "image" => "assets/image/services/aesthetic-crown-bridges.jpg", "description" => "Natural-looking crowns and bridges for a confident smile."],
             ["name" => "Dental Implants", "category" => "dental-aesthetics", "image" => "assets/image/services/dental-implants.jpg", "description" => "Permanent tooth replacement with modern implant solutions."],
-            ["name" => "Veneer and Cosmetic Bonding", "category" => "dental-aesthetics", "image" => "assets/image/services/veneer-cosmetic-bonding.jpg", "description" => "Transform your smile with veneers and cosmetic bonding."],
-            ["name" => "Invisalign and Clear Aligners", "category" => "dental-aesthetics", "image" => "assets/image/services/invisalign-clear-aligners.jpg", "description" => "Straighten teeth discreetly with clear aligners."],
+            ["name" => "Veneer & Cosmetic Bonding", "category" => "dental-aesthetics", "image" => "assets/image/services/veneer-cosmetic-bonding.jpg", "description" => "Transform your smile with veneers and cosmetic bonding."],
+            ["name" => "Invisalign & Clear Aligners", "category" => "dental-aesthetics", "image" => "assets/image/services/invisalign-clear-aligners.jpg", "description" => "Straighten teeth discreetly with clear aligners."],
             ["name" => "Smile Makeover", "category" => "dental-aesthetics", "image" => "assets/image/services/smile-makeover.jpg", "description" => "Complete smile transformation tailored to your goals."],
             ["name" => "Root Canal Treatment", "category" => "dental-aesthetics", "image" => "assets/image/services/root-canal-treatment.jpg", "description" => "Relieve pain while preserving your natural tooth."]
         ]
@@ -266,7 +266,6 @@ $blogs = [
 $footerMenu = [
     ["name" => "Home", "link" => "index.php"],
     ["name" => "About Us", "link" => "about-us.php"],
-    ["name" => "Our Team", "link" => "our-team.php"],
     ["name" => "Technology", "link" => "technology.php"],
     ["name" => "Gallery", "link" => "gallery.php"],
     ["name" => "Blogs", "link" => "blog.php"],
@@ -275,14 +274,13 @@ $footerMenu = [
 ];
 
 $footerServices = [
-    "Skin Aesthetics",
-    "Hair Restoration",
-    "Laser Treatments",
-    "Injectables",
-    "Body Shaping",
-    "Advanced Facials",
-    "Dental Aesthetics",
-    "Permanent Makeup"
+    ["name" => "Laser Skin Treatments", "link" => "laser-skin-treatments.php"],
+    ["name" => "Hair Transplant", "link" => "hair-transplant.php"],
+    ["name" => "Acne Scar Reduction", "link" => "acne-scar-reduction.php"],
+    ["name" => "Botox", "link" => "botox.php"],
+    ["name" => "Dermal Fillers", "link" => "dermal-fillers.php"],
+    ["name" => "Fat Loss Treatments", "link" => "fat-loss-treatments.php"],
+    ["name" => "Dental Implants", "link" => "dental-implants.php"]
 ];
 
 $marqueeItems = [

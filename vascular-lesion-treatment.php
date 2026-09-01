@@ -76,6 +76,7 @@ ob_start();
                     </div>
 
                     <?php include('include/laser-why-choose.php'); ?>
+                    <?php include('include/services-cta.php'); ?>
                 </div>
             </div>
             <?php include('include/services-sidebar.php'); ?>

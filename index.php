@@ -6,16 +6,20 @@ include('include/data.php');
 <section class="banner-section-fourteen">
     <div class="banner-slider-fourteen">
         <div class="banner-slide">
-            <img src="assets/image/banner/banner-1.jpg" class="img-fluid banner-image" alt="banner">
+            <img src="assets/image/banner/banner-1.jpg" class="img-fluid banner-image desktop-banner" alt="banner">
+            <img src="assets/image/banner/mobile-banner-1.jpg" class="img-fluid banner-image mobile-banner" alt="banner">
         </div>
         <div class="banner-slide">
-            <img src="assets/image/banner/banner-2.jpg" class="img-fluid banner-image" alt="banner">
+            <img src="assets/image/banner/banner-2.jpg" class="img-fluid banner-image desktop-banner" alt="banner">
+            <img src="assets/image/banner/mobile-banner-2.jpg" class="img-fluid banner-image mobile-banner" alt="banner">
         </div>
         <div class="banner-slide">
-            <img src="assets/image/banner/banner-3.jpg" class="img-fluid banner-image" alt="banner">
+            <img src="assets/image/banner/banner-3.jpg" class="img-fluid banner-image desktop-banner" alt="banner">
+            <img src="assets/image/banner/mobile-banner-3.jpg" class="img-fluid banner-image mobile-banner" alt="banner">
         </div>
         <div class="banner-slide">
-            <img src="assets/image/banner/banner-4.jpg" class="img-fluid banner-image" alt="banner">
+            <img src="assets/image/banner/banner-4.jpg" class="img-fluid banner-image desktop-banner" alt="banner">
+            <img src="assets/image/banner/mobile-banner-4.jpg" class="img-fluid banner-image mobile-banner" alt="banner">
         </div>
     </div>
     <div class="slide-btn">
@@ -74,7 +78,7 @@ include('include/data.php');
                                 <span class="sec-circle" aria-hidden="true"></span>About HOK Aesthetics
                             </div>
 
-                            
+
 
                             <h2 class="section-title">Premium Skin, Hair & Aesthetic Clinic in Jodhpur</h2>
 
@@ -112,7 +116,7 @@ include('include/data.php');
                             </div>
                         </div>
 
-                        <div class="view-more">
+                        <div class="view-more mb-md-0 mb-4">
                             <a href="./about-us.php" class="btn btn-secondary">
                                 Read More About
                             </a>
@@ -146,8 +150,15 @@ include('include/data.php');
     </div>
     <div class="container-fluid">
         <div class="categories-slider">
-            <?php foreach ($services as $slug => $service): ?>
+            <?php foreach ($services as $service): ?>
                 <?php foreach ($service['subs'] as $sub): ?>
+
+                    <?php
+                    $page = strtolower($sub['name']);
+                    $page = preg_replace('/\s*&\s*|\band\b/i', ' ', $page);
+                    $page = preg_replace('/[^a-z0-9]+/', '-', $page);
+                    $page = trim($page, '-');
+                    ?>
 
                     <div class="slider-item">
                         <div class="hok-service-card">
@@ -166,14 +177,9 @@ include('include/data.php');
                                 </span>
 
                                 <h4><?= htmlspecialchars($sub['name']); ?></h4>
-                                <!-- 
-                                <p class="service-desc">
-                                    <? //= htmlspecialchars($sub['description']); 
-                                    ?>
-                                </p> -->
 
                                 <div class="hok-service-tags">
-                                    <a href="service-details.php?service=<?= $slug; ?>" class="btn hok-service-btn">
+                                    <a href="<?= $page; ?>.php" class="btn hok-service-btn">
                                         Learn More
                                     </a>
                                 </div>
@@ -194,28 +200,28 @@ include('include/data.php');
     <div class="container">
         <div class="row g-4 counts">
 
-            <div class="col-sm-6 col-xl-3">
+            <div class="col-sm-6 col-xl-3 col-6">
                 <div class="counter-item-seventeen">
                     <h3 class="count"><span class="count-digit">1000</span>+</h3>
                     <p>Successful <span>Treatments</span></p>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-xl-3">
+            <div class="col-sm-6 col-xl-3 col-6">
                 <div class="counter-item-seventeen">
                     <h3 class="count"><span class="count-digit">4</span>+</h3>
                     <p>Expert <span>Specialists</span></p>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-xl-3">
+            <div class="col-sm-6 col-xl-3 col-6 mobile-border-remove">
                 <div class="counter-item-seventeen">
                     <h3 class="count"><span class="count-digit">15</span>+</h3>
                     <p>Advanced <span>Technologies</span></p>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-xl-3">
+            <div class="col-sm-6 col-xl-3 col-6">
                 <div class="counter-item-seventeen">
                     <h3 class="count"><span class="count-digit">100</span>%</h3>
                     <p>Personalized <span>Care Plans</span></p>

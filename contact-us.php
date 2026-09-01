@@ -18,7 +18,6 @@ ob_start();
     </div>
 </div>
 
-
 <section class="contact-section">
     <div class="container">
         <div class="row">
@@ -83,32 +82,57 @@ ob_start();
             <div class="col-lg-7 col-md-12 d-flex">
                 <div class="card contact-form-card w-100">
                     <div class="card-body">
-                        <form action="#">
+                        <form id="whatsappForm">
                             <div class="row">
+
                                 <div class="col-md-6">
-                                    <div class="mb-3"><label class="form-label">Name</label><input class="form-control"
-                                            type="text"></div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Name</label>
+                                        <input class="form-control" type="text" id="name"
+                                            placeholder="Enter your full name" required>
+                                    </div>
                                 </div>
+
                                 <div class="col-md-6">
-                                    <div class="mb-3"><label class="form-label">Email</label><input class="form-control"
-                                            type="text"></div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Email</label>
+                                        <input class="form-control" type="email" id="email"
+                                            placeholder="Enter your email address" required>
+                                    </div>
                                 </div>
+
                                 <div class="col-md-6">
-                                    <div class="mb-3"><label class="form-label">Phone Number</label><input
-                                            class="form-control" type="text"></div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Phone Number</label>
+                                        <input class="form-control" type="tel" id="phone"
+                                            placeholder="Enter your phone number" required>
+                                    </div>
                                 </div>
+
                                 <div class="col-md-6">
-                                    <div class="mb-3"><label class="form-label">Services</label><input
-                                            class="form-control" type="text"></div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Subject</label>
+                                        <input class="form-control" type="text" id="subject"
+                                            placeholder="Enter subject" required>
+                                    </div>
                                 </div>
+
                                 <div class="col-md-12">
-                                    <div class="mb-3"><label class="form-label">Message</label><textarea
-                                            class="form-control" rows="6"></textarea></div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Message</label>
+                                        <textarea class="form-control" rows="6" id="message"
+                                            placeholder="Write your message here..." required></textarea>
+                                    </div>
                                 </div>
+
                                 <div class="col-md-12">
-                                    <div class="form-group-btn mb-0"><button type="submit"
-                                            class="btn btn-secondary">Send Message</button></div>
+                                    <div class="form-group-btn mb-0">
+                                        <button type="submit" class="btn btn-secondary">
+                                            <i class="fab fa-whatsapp me-2"></i>Send on WhatsApp
+                                        </button>
+                                    </div>
                                 </div>
+
                             </div>
                         </form>
                     </div>
@@ -119,7 +143,7 @@ ob_start();
 </section>
 
 <!-- Contact Map -->
-<div class="contact-map d-flex">
+<div class="contact-map d-flex bg-light">
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14002.867206248444!2d77.08324798999652!3d28.66819711455467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0561aa6112b1%3A0x5eaadc80ffa737d!2sHOK%20Aesthetics!5e0!3m2!1sen!2sin!4v1787570664354!5m2!1sen!2sin"
         allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>

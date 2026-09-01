@@ -24,7 +24,9 @@
 		                <div class="col-xl-5 col-lg-12 col-md-6">
 		                    <div class="footer-widget footer-about">
 		                        <div class="footer-logo mb-4">
-		                            <img src="assets/image/logo/hok-logo.png" alt="HOK Aesthetics" class="footer-logo bg-white p-2">
+		                           <a href="index.php">
+									<img src="assets/image/logo/hok-logo.png" alt="HOK Aesthetics" class="footer-logo bg-white p-2">
+								   </a> 
 		                        </div>
 
 		                        <div class="footer-about-content mb-3">
@@ -67,10 +69,10 @@
 
 		                        <ul class="footer-menu">
 		                            <?php foreach ($footerServices as $service): ?>
-		                            <li>
-		                                <a href="services.php">
+		                           <li>
+		                                <a href="<?= $service['link']; ?>">
 		                                    <i class="fa-solid fa-angle-right"></i>
-		                                    <?= $service; ?>
+		                                    <?= $service['name']; ?>
 		                                </a>
 		                            </li>
 		                            <?php endforeach; ?>
@@ -93,8 +95,9 @@
 		                                <div>
 		                                    <p class="title">Visit Our Clinic</p>
 		                                    <h5 class="link">
-		                                        B-9, 1st Floor, Shubham Enclave, Paschim Vihar,
+		                                      <a href="https://maps.app.goo.gl/Q6zRV4i582EMGv6T9" target="_blank" rel="noopener noreferrer"> B-9, 1st Floor, Shubham Enclave, Paschim Vihar,
 		                                        New Delhi – 110063
+												</a> 
 		                                    </h5>
 		                                </div>
 		                            </div>

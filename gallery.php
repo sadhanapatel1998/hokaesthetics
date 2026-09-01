@@ -19,6 +19,17 @@ include('include/data.php');
     </div>
 </div>
 
+<!-- Start Blog Section -->
+<section class="section blog-section-sixteen my-5">
+    <div class="container">
+        <div class="section-header section-header-ten text-center mb-5">
+            <!-- <h2 class="section-title mb-2">Expert Tips for Skin, Hair & Aesthetic Care</h2> -->
+            <p class="text-muted mb-0">Gallery images will be available soon.</p>
+        </div>
+    </div>
+</section>
+<!-- End Blog Section -->
+
 
 
 <?php

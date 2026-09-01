@@ -36,7 +36,7 @@ include('include/data.php');
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-item-sixteen wow fadeInUp" data-wow-duration="1s">
                         <div class="blog-overlay">
-                            <a href="blogs.php" class="blog-tag"><?= htmlspecialchars($blog['category']); ?></a>
+                            <a href="javascript:void(0)" class="blog-tag"><?= htmlspecialchars($blog['category']); ?></a>
 
                             <img src="<?= $blog['image']; ?>"
                                 alt="<?= htmlspecialchars($blog['title']); ?>"
@@ -45,7 +45,7 @@ include('include/data.php');
                         <div class="blog-content">
                             <div class="blog-info">
                                 <h3 class="custom-title">
-                                    <a href="blogs.php"><?= htmlspecialchars($blog['title']); ?></a>
+                                    <a href="javascript:void(0)"><?= htmlspecialchars($blog['title']); ?></a>
                                 </h3>
                                 <p class="desc"><?= htmlspecialchars($blog['desc']); ?></p>
                             </div>

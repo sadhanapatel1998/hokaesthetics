@@ -5,6 +5,11 @@
 						<div class="header-info">
 							<p><i class="isax isax-message-text5 me-1"></i><a href="mailto:info@hokaesthetics.com" class="text-white">info@example.com</a></p>
 							<p><i class="isax isax-call5 me-1"></i><a href="tel:+919910169317" class="text-white">+91 99101 69317</a></p>
+							<p><i class="isax isax-location5 me-1"></i>
+							<a href="https://maps.app.goo.gl/Q6zRV4i582EMGv6T9" target="_blank" rel="noopener noreferrer" class="text-white"> B-9, 1st Floor, Shubham Enclave, Paschim Vihar,
+		                                        New Delhi – 110063
+												</a> 
+						</p>
 						</div>
 						<ul>
 							<!-- <li class="drop-header">
@@ -67,11 +72,11 @@
 								</button>
 							</div>
 							<ul class="main-nav">
-								<li class="has-submenu active">
+								<li class="active">
 									<a href="index.php" class="main-menu">Home</a>
 								</li>
 								<li>
-								<li class="has-submenu">
+								<li class="">
 									<a href="about-us.php" class="main-menu">About Us</a>
 								</li>
 								<li class="svc-menu-item">
@@ -150,27 +155,25 @@
 										</div>
 
 										<!-- Mobile-only: simple dropdown + sub-dropdown accordion.
-             Hidden on desktop/tablet, shown only ≤767px (see CSS).
-             Built dynamically by JS — every main service AND every
-             sub-service is a real <a> tag. -->
+                                        Hidden on desktop/tablet, shown only ≤767px (see CSS).
+                                        Built dynamically by JS — every main service AND every
+                                        sub-service is a real <a> tag. -->
 										<div class="svc-mobile-accordion" id="svcMobileAccordion">
 											<!-- filled by JS -->
 										</div>
 									</div>
 								</li>
-								<!-- <li class="has-submenu">
-									<a href="team.php" class="main-menu">Our Team</a>
-								</li> -->
-								<li class="has-submenu">
+
+								<li class="">
 									<a href="technology.php" class="main-menu">Technology</a>
 								</li>
-								<li class="has-submenu">
+								<li class="">
 									<a href="gallery.php" class="main-menu">Gallery</a>
 								</li>
-								<li class="has-submenu">
+								<li class="">
 									<a href="blogs.php" class="main-menu">Blogs</a>
 								</li>
-								<li class="has-submenu">
+								<li class="">
 									<a href="contact-us.php" class="main-menu">Contact Us</a>
 								</li>
 							</ul>

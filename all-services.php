@@ -19,7 +19,7 @@ include('include/data.php');
     </div>
 </div>
 
-<section class="categories-section-three section" style="background: unset;">
+<section class="categories-section-three section" style="background-color: #FDF7F6;">
     <div class="container">
 
         <?php foreach ($services as $slug => $service): ?>
@@ -28,7 +28,7 @@ include('include/data.php');
             <section class="service-category-section" id="<?= $slug; ?>">
 
                 <!-- Category Heading -->
-                <div class="row align-items-center mb-4 mt-5">
+                <div class="row align-items-center mb-4">
                     <div class="col-12">
                         <div class="section-header mb-0 text-center">
                             <span class="section-sub-title" style="color:#730115">
@@ -43,8 +43,17 @@ include('include/data.php');
                 <!-- Related Sub Services -->
                 <div class="row">
                     <?php foreach ($service['subs'] as $sub): ?>
+
+                        <?php
+                        $page = strtolower($sub['name']);
+                        $page = preg_replace('/\s*&\s*|\band\b/i', ' ', $page);
+                        $page = preg_replace('/[^a-z0-9]+/', '-', $page);
+                        $page = trim($page, '-');
+                        ?>
+
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
                             <div class="hok-service-card mx-0">
+
                                 <div class="hok-service-img-wrap">
                                     <img src="<?= $sub['image']; ?>"
                                         alt="<?= htmlspecialchars($sub['name']); ?>"
@@ -63,14 +72,15 @@ include('include/data.php');
                                     <h4><?= htmlspecialchars($sub['name']); ?></h4>
 
                                     <div class="hok-service-tags">
-                                        <a href="service-details.php?service=<?= $slug; ?>"
-                                            class="btn hok-service-btn">
+                                        <a href="<?= $page; ?>.php" class="btn hok-service-btn">
                                             Learn More
                                         </a>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
+
                     <?php endforeach; ?>
                 </div>
 
